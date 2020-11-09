@@ -1,3 +1,9 @@
+import React from 'react';
+import ButtonOne from './ButtonOne'
+import ButtonTwo from './ButtonTwo'
+import Portfolio from './Portfolio/Portfolio'
+import AboutMe from './AboutMe/AboutMe'
+import Game from './TicTacToe/Game'
 import './App.css';
 
 function App() {
@@ -8,6 +14,16 @@ function App() {
           Stephanie Norton
         </p>
       </header>
+      {/* functional component with hooks: */}
+      <ButtonOne />
+      {/* class component:  */}
+      <ButtonTwo />
+      <AboutMe />
+      <Portfolio />
+      <div>
+       
+        <Game />
+      </div>
     </div>
   );
 }
