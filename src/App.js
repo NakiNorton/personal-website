@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import ButtonOne from './ButtonOne'
+import ButtonTwo from './ButtonTwo'
+import Portfolio from './Portfolio/Portfolio'
+import AboutMe from './AboutMe/AboutMe'
+import Game from './TicTacToe/Game'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Stephanie Norton
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      {/* functional component with hooks: */}
+      <ButtonOne />
+      {/* class component:  */}
+      <ButtonTwo />
+      <AboutMe />
+      <Portfolio />
+      <div>
+       
+        <Game />
+      </div>
     </div>
   );
 }
