@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  /* display: flex; */
+  font-family: 'Raleway', sans-serif;
+  background-color: #282c34;
+  height: 100vh;
+  overflow: hidden;
+  height: fit-content;
+  /* max-width: 100vw; */
+   /* background-image: linear-gradient(to right, rgba(0, 238, 255, 0.568), lightCoral); */
+}
+
+
+/* .App-header {
+  border-bottom: solid 2px whitesmoke;
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+
+/* h1 {
+  border-bottom: lightcoral;
+} */

@@ -1,0 +1,50 @@
+.contact-container {
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 2em;
+  color: whitesmoke;
+  border: solid 3px whitesmoke;
+  padding: 2em;
+  border-radius: 6px;
+  text-decoration: none;
+  align-content: center;
+
+}
+
+.page-heading {
+  margin-top: 2em;
+  font-size: 36px;
+  color: rgba(0, 238, 255, 0.568);
+}
+
+li {
+  list-style: none;
+  margin: 0.5em;
+}
+
+.linkedIn-label {
+  margin-bottom: 1em;
+}
+
+.icon {
+  text-decoration: none;
+  margin-bottom: -6px;
+}
+
+a, li {
+  font-size: 24px;
+  color: whitesmoke;
+}
+
+.contact-links {
+  display: block;
+}
+
+/* .contact-links:hover {
+ border-bottom: none;
+} */
+
+li:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
