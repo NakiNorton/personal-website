@@ -1,6 +1,6 @@
 import React from 'react'
 import './LandingPage.css'
-import ButtonOne from '../Button/ButtonOne'
+import TextButtonFeature from '../TextButtonFeature/TextButtonFeature'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { Link } from "react-router-dom";
@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      <ButtonOne />
+      <TextButtonFeature />
         <h1 className='app-heading'>I'm Stephanie Norton,</h1>
         <h2 className='sub-heading'>a Software Engineer.</h2>
       {/* <img src={kiwi} alt="Kiwi Bird Drawing 40 Clipart - Nz Kiwi Bird Outline @clipartmax.com"/> */}
