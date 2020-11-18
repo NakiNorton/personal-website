@@ -2,7 +2,7 @@ import lienFlashImage from './assets/lienflash.gif'
 import readme from './assets/readme.gif'
 import edible from './assets/edible.gif'
 import overlookhotel from './assets/overlookhotel.gif'
-import rancidTomatillos from './assets/rancidTomatillos.gif'
+import rancidTomatillos from './assets/rancid-short.gif'
 import photoDallas from './assets/photoDallas.jpg'
 import photoHiking from './assets/photoHiking.jpg'
 
