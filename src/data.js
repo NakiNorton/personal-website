@@ -3,12 +3,17 @@ import readme from './assets/readme.gif'
 import edible from './assets/edible.gif'
 import overlookhotel from './assets/overlookhotel.gif'
 import rancidTomatillos from './assets/rancidTomatillos.gif'
+import photoDallas from './assets/photoDallas.jpg'
+import photoHiking from './assets/photoHiking.jpg'
 
 export const data = {
   name: 'Stephanie Norton',
   email: 'steph.jane.norton@gmail.com',
-  aboutMe: '',
-  photos: [],
+  aboutMeSection0: "Software Engineer, avid traveller, hiker, amateur snowboarder (learning at 29 is hard!)." ,
+  aboutMeSection1: "I’m a graduate of Turing School of Software Design’s Front-End Software Engineering program which is a seven month immersive program focused on project-based learning. Requiring a commitment of 70-80hrs a week to learn new tools, languages, frameworks, libraries, and concepts through instructor-led lessons and/or projects, made this program immensely challenging.",
+  aboutMeSection2: "To be honest, it was the hardest thing I’ve ever done in my life. But that’s why I got into tech; for the challenge, the fulfilment, and sense of purpose I feel when I’m challenged to grow both professionally and  personally. With the continual innovation in tech there is no shortage of things to learn, and ways that I can use my skills to make a positive impact. I was also attracted to a career in software engineering as I’ve always loved being able to exercise my creativity with hands-on work (tinkering with woodwork, sewing, painting).",
+  aboutMeSection3: "Prior to Turing... I grew up in New Zealand with dual New Zealand/USA citizenship and I bought a one-way ticket to Boston in 2015. I wanted to explore the USA and make the most of my dual citizenship. I ended up working in Boston for 4 years as an Executive Assistant in the consulting industry. After moving to Denver, CO (where I currently reside) in late 2019, I decided to address the nagging feeling that a career as an Executive Assistant wasn’t the right path to continue on. This led me to a period of exploration and online beginner coding courses. I quickly fell in love with coding and after speaking to people in the industry I decided to commit to a career change in early 2020 and enrolled at Turing for its project based learning, and longer ‘bootcamp’ program.",
+  photos: [photoDallas, photoHiking],
   projects:[
     {
       id: 1,
