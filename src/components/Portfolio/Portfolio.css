@@ -1,0 +1,84 @@
+.portfolio {
+  margin: 0;
+  text-align: center;
+  
+}
+
+.stepper {
+  margin-left: 40%;
+  /* margin-right: 25%; */
+}
+
+.portfolio-container {
+  /* width: 80%; */
+  /* margin-top: 10vh; */
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 1em;
+  /* display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: masonry;
+  grid-gap: 2em; */
+  /* grid-template-colums: repeat(2, 1fr); */
+  /* grid-gap: 2em;
+  margin-left: 20%;
+  margin-right: 20%; */
+  /* width: 100%; */
+  
+ color: whitesmoke;
+}
+
+article {
+  text-align: left;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+.projects {
+  margin-top: 2.5em;
+  border: 5px solid lightslategrey;
+  padding: 1em;
+  border-radius: 6px;
+  /* height: 120vh; */
+}
+
+.img {
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+.lienflash-img {
+  width: 50%;
+  height: auto;
+} 
+
+
+/* .projects:hover {
+  transform: scale(1.25);
+  background: lightcoral;
+  color: black;
+} */
+
+/* .img:hover {
+  margin: 5em;
+  transform: scale(1.6);
+} */
+
+/* .img {
+  width:
+  height: auto;
+}
+
+
+
+
+/* h2:hover {
+  border-bottom: solid 2px lightcoral;
+} */

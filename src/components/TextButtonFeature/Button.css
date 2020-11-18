@@ -1,0 +1,19 @@
+.btn-primary {
+  /* margin-left: -45%; */
+  margin-top: 3em;
+  color: whitesmoke;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  font-size: 36px;
+  /* font-style: italic; */
+}
+
+.btn-primary:hover { 
+  cursor: pointer;
+  border-bottom: solid 2px yellow;
+  /* border-bottom: solid 2px lightcoral; */
+}
+
+

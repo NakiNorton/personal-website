@@ -1,0 +1,22 @@
+.about-me {
+  /* width: 50%; */
+  margin-left: 25%;
+  margin-right: 25%;
+  align-self: center;
+  text-align: left;
+  height: 200vh;
+  padding: 2em;
+  color: white;
+  background-color: transparent;
+}
+
+p {
+  font-size: 20px;
+}
+
+.photo {
+  width: 40%;
+  margin: 1em;
+  border: solid 4px white;
+  border-radius: 2em;
+}
