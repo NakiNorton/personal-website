@@ -8,8 +8,9 @@
 
 .page-heading {
   margin-top: 1em;
-  font-size: 8vh;
-  color: rgba(25, 122, 129, 0.445);
+  font-size: 6vh;
+  color: rgba(34, 172, 182, 0.856);
+  /* color: rgba(25, 122, 129, 0.445); */
   /* color: rgba(27, 121, 113, 0.836); */
   background-color: white;
 }

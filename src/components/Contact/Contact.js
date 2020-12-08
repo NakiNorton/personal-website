@@ -12,11 +12,11 @@ const Contact = () => {
         <h2>{data.name}</h2>
           <ul className='contact-links'>
           <li className='contact-email'>{data.email}</li>
-          <li className='contact-links linkedIn-label'>
+          <li className='contact-links linkedIn-label link'>
             <a href='https://www.linkedin.com/in/stephanie-norton-12888453' className='labels'>
               <LinkedInIcon className='icon' classtyle={{ fontSize: 40 }} /> LinkedIn</a>
             </li>
-          <li className='contact-link'>
+          <li className='contact-links link'>
               <a href='https://github.com/NakiNorton' className='labels'>
               <GitHubIcon className='icon' classtyle={{ fontSize: 40 }} /> GitHub</a>
             </li>

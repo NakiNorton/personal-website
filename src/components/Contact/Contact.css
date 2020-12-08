@@ -30,7 +30,8 @@ h2 {
 }
 
 .labels, .contact-links, .contact-email  {
-  font-size: 24px;
+  font-size: 26px;
+  padding: 0.2em;
   list-style: none;
   padding-inline-start: 0px;
   color: black;  
@@ -41,11 +42,11 @@ h2 {
   margin: 10px;
 } 
 
-.contact-link:hover {
+.link:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
 
 .contact-email {
-  margin-left: -18%;
+  margin-left: -34%;
 }
