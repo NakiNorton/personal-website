@@ -19,3 +19,221 @@
   background-color: whitesmoke;
   padding-top: 0.5em;
 }
+
+/* MEDIA QUERIES */
+
+/*  Tablets - portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1330px) {
+  .page-heading {
+    font-size: 6vh;
+  }
+
+  p {
+  font-size: 20px;
+  }
+
+  article {
+    font-size: 20px;
+  }
+
+  /* Header */
+  header {
+    min-height: 8vh;
+  }
+  .nav-link {
+  padding: 2px 18px;
+  }
+
+ /* Contact page */
+  .labels, .contact-links, .contact-email  {
+  font-size: 20px;
+  }
+  .contact-container {
+    /* margin-top: 30%; */
+    padding: 8em;
+    height: 12em;
+    width: 12em;
+  }
+
+  /* About me page */
+  .about-me {
+    margin: 5%;
+  }
+  .kiwi-img {
+    width: 32px;
+  }
+  .skill-list {
+  font-size: 20px;
+  padding-left: 5px;
+  }
+
+  /* Portfolio  */
+  .projects {
+    padding: 0;
+  }
+  .portfolio-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+  .stepper {
+  margin-left: 25%;
+  margin-right: 25%;
+  }
+  .img {
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    width: 90%;
+  }
+  .lienflash-img {
+    width: 70%;
+    height: auto;
+  } 
+}
+
+/* smartphones landscape */
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+  .page-heading {
+    font-size: 4vh;
+  }
+
+  p {
+  font-size: 18px;
+  }
+
+  article {
+    font-size: 18px;
+  }
+
+  /* Header */
+  header {
+    min-height: 6vh;
+  }
+  .nav-link {
+  padding: 2px 18px;
+  }
+
+ /* Contact page */
+  .labels, .contact-links, .contact-email  {
+  font-size: 18px;
+  }
+  .contact-container {
+    margin-top: 28vh;
+    padding: 6em;
+    height: 10em;
+    width: 10em;
+  }
+
+  /* About me page */
+  .about-me {
+    margin: 5%;
+  }
+  .kiwi-img {
+    width: 28px;
+  }
+  .skill-list {
+  font-size: 18px;
+  padding-left: 1px;
+  }
+
+  /* Portfolio  */
+  .projects {
+    padding: 0;
+  }
+  .portfolio-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+  .stepper {
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+  .img {
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    width: 90%;
+  }
+  .lienflash-img {
+    width: 70%;
+    height: auto;
+  } 
+}
+
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+  .page-heading {
+    font-size: 4vh;
+  }
+
+  h2 {
+    font-size: medium;
+  }
+
+  h3 {
+    font-size: medium;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  article {
+    font-size: 16px;
+  }
+
+  /* Header */
+  header {
+    min-height: 6vh;
+  }
+  .nav-link {
+  padding: 1px 16px;
+  }
+
+  /* Contact page */
+  .labels, .contact-links, .contact-email  {
+  font-size: 16px;
+  }
+  .contact-container {
+    margin-top: 28vh;
+    padding: 6em;
+    height: 10em;
+    width: 10em;
+  }
+
+  /* About me */
+  .about-me {
+    margin: 2.5%;
+    padding: 0em 1em 0em 1em;
+  }
+  .kiwi-img {
+    width: 28px;
+  }
+  .skill-list {
+  font-size: 16px;
+  padding-left: 1em;
+  }
+
+  /* Portfolio  */
+  .projects {
+    padding: 0;
+  }
+  .portfolio-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+  .stepper {
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+  .img {
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  width: 90%;
+  }
+  .lienflash-img {
+    width: 70%;
+    height: auto;
+  } 
+
+}
