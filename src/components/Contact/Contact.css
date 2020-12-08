@@ -4,19 +4,19 @@
 
 h2 {
   margin: 0;
+  padding-bottom: 0.5em;
 }
 
 .contact-container {
-  margin-top: 34vh;
-  /* margin-top: 20em; */
+  margin-top: 1em;
   border: solid 3px white;
   padding: 10em;
-  height: 14em;
-  width: 14em;
+  height: 13em;
+  width: 13em;
   border-radius: 50%;
   text-decoration: none;
   position: fixed;
-  /* top: 54%; */
+  top: 51%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-image: linear-gradient(to top, rgba(157, 206, 209, 0.568), rgba(245, 245, 245, 0.548),  rgb(218, 211, 211));

@@ -45,6 +45,9 @@
   padding: 2px 18px;
   }
 
+  /* Landing page  */
+
+
  /* Contact page */
   .labels, .contact-links, .contact-email  {
   font-size: 20px;
@@ -96,7 +99,9 @@
   .page-heading {
     font-size: 4vh;
   }
-
+  h2 {
+      padding-bottom: 0;
+    }
   p {
   font-size: 18px;
   }
@@ -113,12 +118,15 @@
   padding: 2px 18px;
   }
 
+  /* Landing page */
+
+
  /* Contact page */
   .labels, .contact-links, .contact-email  {
   font-size: 18px;
   }
   .contact-container {
-    margin-top: 28vh;
+    /* margin-top: 30vh; */
     padding: 6em;
     height: 10em;
     width: 10em;
@@ -132,8 +140,8 @@
     width: 28px;
   }
   .skill-list {
-  font-size: 18px;
-  padding-left: 1px;
+    font-size: 18px;
+    padding-left: 1px;
   }
 
   /* Portfolio  */
@@ -141,13 +149,13 @@
     padding: 0;
   }
   .portfolio-container {
-  margin-left: 5%;
-  margin-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .stepper {
-  margin-left: 15%;
-  margin-right: 15%;
-  }
+    margin-left: 15%;
+    margin-right: 15%;
+    }
   .img {
     margin-top: 2.5em;
     margin-bottom: 2em;
@@ -168,6 +176,7 @@
 
   h2 {
     font-size: medium;
+    padding-bottom: 0;
   }
 
   h3 {
@@ -179,7 +188,40 @@
   }
 
   article {
-    font-size: 16px;
+    font-size: 14px;
+    width: 90%;
+    margin: 5%;
+  }
+
+  /* Landing page */
+  .landing-page {
+    margin-left: 0;
+    background-image: linear-gradient(to right, rgba(45, 112, 117, 0.479), lightCoral);
+  }
+  .app-heading {
+    font-size: 7vh;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .sub-heading {
+    font-size: 4vh;
+    padding: 0.8em;
+    margin-right: 0;
+    /* margin-right: -25%; */
+  }
+  .btn-primary {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 4vh;
+  }
+  .icon-text {
+    font-size: 4vh;
+  }
+  .contact-icons {
+    position: 0;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   /* Header */
@@ -192,13 +234,16 @@
 
   /* Contact page */
   .labels, .contact-links, .contact-email  {
-  font-size: 16px;
+  font-size: 14px;
   }
   .contact-container {
-    margin-top: 28vh;
+    position: fixed;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 6em;
-    height: 10em;
-    width: 10em;
+    height: 9em;
+    width: 9em;
   }
 
   /* About me */
@@ -210,26 +255,28 @@
     width: 28px;
   }
   .skill-list {
-  font-size: 16px;
-  padding-left: 1em;
+    font-size: 16px;
+    padding-left: 1em;
   }
 
   /* Portfolio  */
   .projects {
-    padding: 0;
+    padding: 0px;
+    margin-top: 0;
   }
   .portfolio-container {
-  margin-left: 5%;
-  margin-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .stepper {
-  margin-left: 10%;
-  margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
   }
   .img {
-  margin-top: 2.5em;
-  margin-bottom: 2em;
-  width: 90%;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    width: 90%;
   }
   .lienflash-img {
     width: 70%;

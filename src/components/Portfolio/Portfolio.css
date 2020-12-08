@@ -3,12 +3,9 @@
 }
 
 .stepper {
-  margin-top: 1.5em;
-  margin-bottom: 2.5em;
   margin-left: 35%;
   margin-right: 35%;
 }
-
 
 .portfolio-container {
   margin-left: 15%;
@@ -30,7 +27,6 @@ h3 {
 }
 
 .projects {
-  margin-top: 2.5em;
   border: 3.5px solid lightslategrey;
   border: 2px solid rgba(34, 172, 182, 0.856);
   padding: 1em;

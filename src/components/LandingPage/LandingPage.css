@@ -1,14 +1,13 @@
 .landing-page {
   margin-left: -15em;
-  min-height: 90vh;
-  /* width: 100vw; */
-  /* color: teal; */
+  min-height: 94vh;
   color: whitesmoke;
   background-image: linear-gradient(to right, rgba(0, 238, 255, 0.568), lightCoral);
 }
 
 .app-heading {
   margin: 0;
+  margin-left: 12%;
   padding-top: 0.5em;
   font-size: 10vh;
 }
@@ -17,7 +16,6 @@
   font-size: 48px;
   font-style: italic;
   margin-right: -40%;
-
 }
 
 /* img {
