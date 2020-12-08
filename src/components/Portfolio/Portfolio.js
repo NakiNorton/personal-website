@@ -4,8 +4,6 @@ import DotsMobileStepper from '../stepper'
 import './Portfolio.css'
 
 const Portfolio = () => {
-  // const [currentIndex, getNextProject] = useState(0)
-
   const [currentIndex, getNextProject] = useState(0);
 
   const handleNext = () => {
@@ -23,18 +21,18 @@ const Portfolio = () => {
       <DotsMobileStepper currentIndex={currentIndex} handleBack={handleBack} 
       handleNext={handleNext}/>
       </div>
-      <div className='portfolio-container'>
+      <section className='portfolio-container'>
         <div className='projects'>
           <h3>{data.projects[currentIndex].name}</h3>
           <article><span style={{ fontWeight: '600' }}>Overview:</span> {data.projects[currentIndex].description}</article>
           <br />
-          <article><span style={{ fontWeight: '600' }}>Tech stack:</span> Tech listed here</article>
+          <article><span style={{ fontWeight: '600' }}>Tech stack: </span> 
+           {data.projects[currentIndex].techStack}</article>
           <img className={data.projects[currentIndex].className} alt='gif of project' src={data.projects[currentIndex].image}/>
         </div>
-    </div>
+      </section>
     </div>
   )
-
 }
 
 export default Portfolio;
