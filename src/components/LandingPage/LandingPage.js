@@ -11,7 +11,7 @@ const LandingPage = () => {
         <h1 className='app-heading'>I'm Stephanie Norton,</h1>
         <h2 className='sub-heading'>a Software Engineer.</h2>
       <section className='contact-icons'>
-        <p>
+        <p className='icon-text'>
           <a className='linkedIn icon-labels' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon className='icon' />  LinkedIn</a>
           <a href='https://github.com/NakiNorton' className='icon-labels'><GitHubIcon className='icon' /> GitHub</a>
         </p>
