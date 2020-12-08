@@ -1,17 +1,26 @@
+.about-page {
+  background-color: white;
+}
+
 .about-me {
-  /* width: 50%; */
   margin-left: 25%;
   margin-right: 25%;
   align-self: center;
   text-align: left;
-  height: 200vh;
-  padding: 2em;
-  color: white;
-  background-color: transparent;
+  height: auto;
+  padding: 0em 2em 0em 2em;
+  color: black;
+  border-radius: 1em;
+  background-color: whitesmoke;
 }
 
 p {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.skill-list {
+  font-size: 22px;
 }
 
 .photo {
@@ -20,3 +29,9 @@ p {
   border: solid 4px white;
   border-radius: 2em;
 }
+
+.kiwi-img {
+  width: 72px;
+  padding-left: 0.5em;
+}
+

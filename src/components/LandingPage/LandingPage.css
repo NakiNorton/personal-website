@@ -1,7 +1,8 @@
 .landing-page {
   margin-left: -15em;
-  height: 90vh;
+  min-height: 90vh;
   /* width: 100vw; */
+  /* color: teal; */
   color: whitesmoke;
   background-image: linear-gradient(to right, rgba(0, 238, 255, 0.568), lightCoral);
 }
@@ -10,7 +11,6 @@
   margin: 0;
   padding-top: 0.5em;
   font-size: 10vh;
-  
 }
 
 .sub-heading {
@@ -32,8 +32,8 @@
   bottom: 2%;
   right: 5%;
   padding: 0em;
-  padding-top: 4.25em;
-  padding-bottom: 4.25em;
+  padding-top: 10em;
+  padding-bottom: 4.25em; 
 }
 
 a {
@@ -56,4 +56,6 @@ a {
   margin-right: 1em;
 }
 
-
+.icon-text {
+  font-size: 36px;
+}

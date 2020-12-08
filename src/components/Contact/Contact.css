@@ -1,25 +1,24 @@
+.contact {
+  height: 80vh;
+}
+
+h2 {
+  margin: 0;
+}
+
 .contact-container {
-  margin-right: 25%;
-  margin-left: 25%;
-  margin-top: 2em;
-  color: whitesmoke;
-  border: solid 3px whitesmoke;
-  padding: 2em;
-  border-radius: 6px;
+  margin-top: 20em;
+  border: solid 3px white;
+  padding: 10em;
+  height: 14em;
+  width: 14em;
+  border-radius: 50%;
   text-decoration: none;
-  align-content: center;
-
-}
-
-.page-heading {
-  margin-top: 2em;
-  font-size: 36px;
-  color: rgba(0, 238, 255, 0.568);
-}
-
-li {
-  list-style: none;
-  margin: 0.5em;
+  position: fixed;
+  /* top: 54%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(to top, rgba(157, 206, 209, 0.568), rgba(245, 245, 245, 0.548),  rgb(218, 211, 211));
 }
 
 .linkedIn-label {
@@ -28,23 +27,25 @@ li {
 
 .icon {
   text-decoration: none;
-  margin-bottom: -6px;
 }
 
-a, li {
+.labels, .contact-links, .contact-email  {
   font-size: 24px;
-  color: whitesmoke;
+  list-style: none;
+  padding-inline-start: 0px;
+  color: black;  
 }
 
 .contact-links {
-  display: block;
-}
+  display: block; 
+  margin: 10px;
+} 
 
-/* .contact-links:hover {
- border-bottom: none;
-} */
-
-li:hover {
+.contact-link:hover {
   transform: scale(1.2);
   cursor: pointer;
+}
+
+.contact-email {
+  margin-left: -18%;
 }
