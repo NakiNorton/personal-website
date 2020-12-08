@@ -16,7 +16,7 @@ h2 {
   border-radius: 50%;
   text-decoration: none;
   position: fixed;
-  top: 51%;
+  top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-image: linear-gradient(to top, rgba(157, 206, 209, 0.568), rgba(245, 245, 245, 0.548),  rgb(218, 211, 211));
