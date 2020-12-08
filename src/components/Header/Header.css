@@ -1,19 +1,7 @@
-/* header {
-  border-bottom: solid 2px whitesmoke;
-  overflow: hidden;
-  padding: 20px 12px;
-  display: inline;
-  border-bottom: solid 2px whitesmoke;
-  background-color: #282c34;
-  min-height: 14vh;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
 header {
   border-bottom: solid 2px rgb(226, 232, 240);
   background-color: #282c34;
-  min-height: 10vh;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,6 +26,6 @@ header {
 }
 
 .nav-link:hover {
-  /* border-bottom: solid 3px rgba(0, 238, 255, 0.568);   */
-  border-bottom: solid 2px rgba(34, 172, 182, 0.856)
+  border-bottom: solid 2px rgba(34, 172, 182, 0.856);
+  padding-bottom: 0.2em;
 }
