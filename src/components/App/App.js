@@ -7,23 +7,28 @@ import AboutMe from '../AboutMe/AboutMe'
 import Contact from '../Contact/Contact'
 import './App.css';
 
-
 function App() {
   return (
     <main className="App">
       <Header/>
-      <Route exact path='/' render={() =>  
-      <LandingPage />
+      <Route exact path='/' render={() =>
+        <LandingPage />
       } />
-      <Route exact path='/portfolio' render={() =>
-        <Portfolio />
-      } />
+      <AboutMe />
       <Route exact path='/about-me' render={() =>
         <AboutMe />
       } />
+      <Portfolio />
+      <Route exact path='/portfolio' render={() =>
+        <Portfolio />
+      } />
+      <Contact />
       <Route exact path='/contact' render={() =>
         <Contact />
       } />
+ 
+
+      <footer />
     </main>
   );
 }
