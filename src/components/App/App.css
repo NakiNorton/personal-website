@@ -5,11 +5,12 @@
   font-family: 'Raleway', sans-serif;
   background-color: white;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .page-heading {
-  margin-top: 1em;
-  font-size: 6vh;
+  margin-top: 2em;
+  font-size: 10vh;
   color: rgba(34, 172, 182, 0.856);
   background-color: white;
 }
