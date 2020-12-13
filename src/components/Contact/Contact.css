@@ -1,5 +1,7 @@
 .contact {
   height: 80vh;
+  margin: 0;
+  padding-top: 4em;
 }
 
 h2 {
@@ -8,24 +10,26 @@ h2 {
 }
 
 .contact-container {
+  /* width: 50%; */
   margin-top: 1em;
   border: solid 3px white;
-  padding: 10em;
-  height: 13em;
-  width: 13em;
-  border-radius: 50%;
+  padding: 1em;
+
+  /* height: 13em;
+  width: 13em; */
+  /* border-radius: 50%; */
   text-decoration: none;
   display: flex;
   /* margin-left: 40%;
   margin-right: 30%; */
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-content: center;
   justify-content: center;
   /* position: static;
   top: 54%;
   left: 50%; */
   /* transform: translate(-50%, -50%); */
-  background-image: linear-gradient(to top, rgba(157, 206, 209, 0.568), rgba(245, 245, 245, 0.548),  rgb(218, 211, 211));
+  /* background-image: linear-gradient(to top, rgba(157, 206, 209, 0.568), rgba(245, 245, 245, 0.548),  rgb(218, 211, 211)); */
 }
 
 .linkedIn-label {
