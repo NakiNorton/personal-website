@@ -9,7 +9,6 @@ const Contact = () => {
     <div className='contact'>
       <h2 className='page-heading'>Get In Touch!</h2>
       <section className='contact-container'>
-        <h2>{data.name}</h2>
           <ul className='contact-links'>
           <li className='contact-email'>{data.email}</li>
           <li className='contact-links linkedIn-label link'>
