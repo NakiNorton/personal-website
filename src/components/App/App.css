@@ -11,14 +11,13 @@
   margin-top: 1em;
   font-size: 6vh;
   color: rgba(34, 172, 182, 0.856);
-  /* color: rgba(25, 122, 129, 0.445); */
-  /* color: rgba(27, 121, 113, 0.836); */
   background-color: white;
 }
 
 .about-me-heading {
   background-color: whitesmoke;
   padding-top: 0.5em;
+  text-align: center;
 }
 
 footer {
@@ -63,9 +62,9 @@ footer {
     /* margin-top: 30%; */
     margin-left: 0%;
     margin-right: 0%;
-    padding: 8em;
+    /* padding: 8em;
     height: 12em;
-    width: 12em;
+    width: 12em; */
   }
 
   /* About me page */
@@ -138,9 +137,9 @@ footer {
     /* margin-top: 30vh; */
     margin-left: 0%;
     margin-right: 0%;
-    padding: 6em;
+    /* padding: 6em;
     height: 10em;
-    width: 10em;
+    width: 10em; */
   }
 
   /* About me page */
@@ -180,7 +179,7 @@ footer {
 
 /*  Smartphones in portrait mode  */
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 480px) {
   .page-heading {
     font-size: 4vh;
   }
@@ -256,9 +255,9 @@ footer {
     margin-right: 0%;
     align-self: center;
     justify-self: center;
-    padding: 6em;
+    /* padding: 6em;
     height: 9em;
-    width: 9em;
+    width: 9em; */
   }
 
   /* About me */
