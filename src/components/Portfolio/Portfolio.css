@@ -39,6 +39,18 @@ h3 {
   width: 80%;
 }
 
+.features-btn {
+  background-color: white;
+  border: 2px solid rgba(34, 172, 182, 0.856);
+  border-radius: 5px;
+  color: rgba(34, 172, 182, 0.856);
+  font-size: 3vh;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  padding: 5px;
+  /* line-height: 30px; */
+}
+
 .lienflash-img {
   width: 50%;
   height: auto;
