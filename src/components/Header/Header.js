@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import './Header.css'
 
 const Header = () => {
@@ -7,16 +7,16 @@ const Header = () => {
     <header className="App-header">
       <ul className='header-links'>
         <li className='nav-link'>
-          <NavLink to='/'>Home</NavLink>
+          <Link to='landing-page'>Home</Link>
         </li>
         <li className='nav-link'>
-          <NavLink to='/about-me'>About Me</NavLink>
+          <Link to='about-me'>About Me</Link>
         </li>
         <li className='nav-link'>
-          <NavLink to='/portfolio'>Portfolio</NavLink>
+          <Link to='portfolio'>Portfolio</Link>
         </li>
         <li className='nav-link'>
-          <NavLink to='/contact'>Contact</NavLink>
+          <Link to='contact'>Contact</Link>
         </li>
       </ul>
     </header>
