@@ -1,26 +1,32 @@
 import React from 'react'
-import { Link } from "react-scroll";
 import './Header.css'
+import TextButtonFeature from '../TextButtonFeature/TextButtonFeature'
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Header = () => {
   return (
-    <header className="App-header">
-      <ul className='header-links'>
-        <li className='nav-link'>
-          <Link to='landing-page'>Home</Link>
-        </li>
-        <li className='nav-link'>
-          <Link to='about-me'>About Me</Link>
-        </li>
-        <li className='nav-link'>
-          <Link to='portfolio'>Portfolio</Link>
-        </li>
-        <li className='nav-link'>
-          <Link to='contact'>Contact</Link>
-        </li>
-      </ul>
-    </header>
+      <div className="header">
+        <div className="header__text-btn">
+          <TextButtonFeature />
+        </div>
+        <div className="header__text-box">
+          <h1 className="heading-primary">
+            <span className="heading-primary--main">I'm Stephanie Norton,</span>
+            <span className="heading-primary--sub"> a Software Engineer.</span>
+          </h1>
+        </div>
+        <div className='header__contact-icons'>
+          <p className='icon-text'>
+            <a className='linkedIn icon-labels' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon className='icon' />  LinkedIn</a>
+            <a href='https://github.com/NakiNorton' className='icon-labels'><GitHubIcon className='icon' /> GitHub</a>
+          </p>
+        </div>
+        
+    
+      
+      </div>
   )
 }
 
-export default Header
+export default Header;

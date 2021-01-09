@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.app {
+  // defining what 1rem is for the entire app, so leave this here (don't put it in typography)
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}

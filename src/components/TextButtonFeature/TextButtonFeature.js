@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import './Button.css';
+// import './Button.css';
 
 const TextButtonFeature = () => {
   const [status, updateStatus] = useState(true)
   
   return (
-    <button className='btn-primary' onClick={() => updateStatus(!status)}>{status ? "Hello! Kia ora" : "Welcome! Nau mai, haere mai"}</button>
+    <button className='btn-text-feature' onClick={() => updateStatus(!status)}>{status ? "Hello! Kia ora" : "Welcome! Nau mai, haere mai"}</button>
   )
 
 }

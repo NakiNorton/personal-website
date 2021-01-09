@@ -1,0 +1,77 @@
+.about {
+  margin-top: -30vh;
+
+  &__textbox {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: -30vh;
+    margin-bottom: 20vh;
+  }
+
+  &__kiwi-img {
+    width: 3.5rem;
+    padding-left: 1rem;
+  }
+
+  &__skill-list {
+    margin-left: 3rem;
+  }
+}
+
+.composition {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+
+  &__photo {
+    opacity: .9;
+    padding: 1rem;
+    margin: -1rem;
+    width: 35%;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+    border-radius: 2px;
+    transition: all .2s;
+
+    // creates space between element outline and a border.
+    outline-offset: 2rem;
+
+    // doesn't matter what number we use for default z-index. The element w. the highest z-index number will appear on top. Here, we want the default index to be lower than the one used for the hover effect. All photos that aren't hovered on, will have this default value.
+    z-index: 10;
+
+    // reference will be the position of nearest parent element that has it's position set (i.e. here it is the .composition class whose position we set to relative)
+    position: absolute;
+
+    // positioning the child elements using the 'modifier' part of the class name
+
+    &--p1 {
+      left: -2rem;
+      top: -1rem;
+    }
+
+    &--p2 {
+      width: 48%;
+      right: 3.5rem;
+      top: 1rem;
+    }
+
+    &--p3 {
+      left: 20%;
+      top: 8rem;
+    }
+
+    &:hover {
+      opacity: 1;
+      outline: .5rem solid $color-white;
+      transform: scale(1.05) translateY(-.5rem);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+      // higher than default value (10) so it'll appear on top.
+      z-index: 20;
+    }
+  }
+
+  &:hover &__photo:not(:hover) {
+    // Means: On composition element -> composition:hover -> select child photo which is NOT hovered. Shrink photos not hovered on.
+    transform: scale(.95);
+  }
+}

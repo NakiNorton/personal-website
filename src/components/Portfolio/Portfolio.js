@@ -6,7 +6,7 @@ import './Portfolio.css'
 
 const Portfolio = () => {
   const [currentIndex, getNextProject] = useState(0);
-  const [featuresAreVisible, displayFeatures] = useState(false);
+  const [features, setFeatures] = useState(false);
 
   const handleNext = () => {
     getNextProject((prevActiveStep) => prevActiveStep + 1);
@@ -17,7 +17,7 @@ const Portfolio = () => {
   };
 
   const showFeatures = () => {
-    !featuresAreVisible ? displayFeatures(true) : displayFeatures(false)
+    !features ? setFeatures(true) : setFeatures(false)
   }
 
   return (
@@ -32,9 +32,9 @@ const Portfolio = () => {
           <h3>{data.projects[currentIndex].name}</h3>
           <article><span style={{ fontWeight: '600' }}>Overview:</span> {data.projects[currentIndex].description}
           <br />
-            <button className='features-btn' onClick={() => showFeatures()}>Features <span><ExpandMoreIcon fontSize='medium'></ExpandMoreIcon></span></button>
+            <button className='expand-btn' onClick={() => showFeatures()}>Features <span><ExpandMoreIcon fontSize='medium'></ExpandMoreIcon></span></button>
           </article>
-          { featuresAreVisible &&
+          { features &&
             <article><span style={{ fontWeight: '600' }}></span> {data.projects[currentIndex].features}</article>
           }
           <br />

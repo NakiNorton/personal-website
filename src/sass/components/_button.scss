@@ -1,0 +1,21 @@
+.btn-text-feature,
+.expand-btn  {
+  color: hotpink;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  font-family: 'Comic Neue', cursive;
+  margin: 2rem;
+  padding: 1rem;
+  animation: fadeIn 2s ease-in;
+
+  &:hover {
+    border-bottom: 2px solid white ;
+  }
+}
+
+.expand-btn {
+  display: block;
+  padding: .5rem;
+}
+
