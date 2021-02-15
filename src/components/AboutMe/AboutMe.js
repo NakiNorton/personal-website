@@ -17,7 +17,7 @@ const AboutMe = () => {
     root: {
       width: '300px',
       height: '300px',
-      opacity: '0.9',
+      opacity: '0.5',
       border: "5px solid white",
       margin: '0 auto',
       '& > *': {
@@ -71,7 +71,7 @@ const AboutMe = () => {
           <button className="expand-btn" onClick={() => showStory()}>My Story<span><ExpandMoreIcon fontSize='medium'></ExpandMoreIcon></span></button>
           { story && displayStory() }
         </article>
-        <div>
+        <div className="avatar-container">
           <Avatar className={classes.root} src={linkedIn} alt="LinkedIn profile photo" />
         </div>
         {/* <div class="composition">

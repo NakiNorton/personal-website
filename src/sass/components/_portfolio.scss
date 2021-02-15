@@ -1,14 +1,18 @@
 .portfolio-heading {
   text-align: center!important;
+  // background-color: $color-grey-light-1;
 }
 
 .portfolio-section {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
-
+.img-container {
+ text-align: center;
+}
 
 .img {
-  width: 100%;
+  width: 75%;
+
 }

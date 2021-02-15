@@ -1,6 +1,6 @@
 .about {
   margin-top: -30vh;
-
+ 
   &__textbox {
     width: 75%;
     margin: 0 auto;
@@ -22,6 +22,10 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
   // grid-template-rows: 4;
+}
+
+.avatar-container {
+  padding-bottom: 1.5rem;
 }
 
 .composition {

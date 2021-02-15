@@ -20,7 +20,7 @@ export default function DotsMobileStepper(props) {
     <MobileStepper
       variant="dots"
       steps={5}
-      style={{ background: 'transparent' }}
+      style={{ background: '$color-primary-light-1' }}
       position="none"
       activeStep={props.currentIndex}
       className={classes.root}
