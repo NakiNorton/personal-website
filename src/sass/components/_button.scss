@@ -5,9 +5,10 @@
   border: none;
   font-size: 2rem;
   font-family: 'Comic Neue', cursive;
-  margin: 2rem;
+  // margin: 2rem;
   padding: 1rem;
   animation: fadeIn 2s ease-in;
+  margin-left: -.5rem!important;
 
   &:hover {
     border-bottom: 2px solid white ;

@@ -40,7 +40,6 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 2px;
-  display: inline-block;
   // background-image: linear-gradient(to right, $color-primary-dark, $color-primary-light);
   // -webkit-background-clip: text;
   color: $color-grey-dark-3;
@@ -53,12 +52,22 @@ body {
   font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
+  color: $color-black;
 }
+
+ .project-title {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $color-black;
+  }
+
 
 .paragraph {
   font-size: $default-font-size;
+  margin-bottom: 1rem;
   
-  &:not(:last-child) {
-    margin-bottom: 3rem;
-  }
+  // &:not(:last-child) {
+  //   margin-bottom: 3rem;
+  // }
 }

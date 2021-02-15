@@ -21,28 +21,33 @@ const Portfolio = () => {
   }
 
   return (
-    <div className='portfolio'>
-      <h2 className='page-heading'>Portfolio</h2>
-      <div className='stepper'>
-      <DotsMobileStepper currentIndex={currentIndex} handleBack={handleBack} 
-      handleNext={handleNext}/>
-      </div>
-      <section className='portfolio-container'>
-        <div className='projects'>
-          <h3>{data.projects[currentIndex].name}</h3>
-          <article><span style={{ fontWeight: '600' }}>Overview:</span> {data.projects[currentIndex].description}
-          <br />
-            <button className='expand-btn' onClick={() => showFeatures()}>Features <span><ExpandMoreIcon fontSize='medium'></ExpandMoreIcon></span></button>
-          </article>
-          { features &&
-            <article><span style={{ fontWeight: '600' }}></span> {data.projects[currentIndex].features}</article>
-          }
-          <br />
-          <article><span style={{ fontWeight: '600' }}>Tech stack: </span> 
-           {data.projects[currentIndex].techStack}</article>
-          <img className={data.projects[currentIndex].className} alt='gif of project' src={data.projects[currentIndex].image}/>
+    <div className='portfolio u-margin-top-big'>
+      <h2 className='portfolio-heading heading-secondary'>Portfolio</h2>
+      <div className='portfolio-section'>
+        <div className='stepper'>
+        <DotsMobileStepper currentIndex={currentIndex} handleBack={handleBack} 
+        handleNext={handleNext}/>
         </div>
-      </section>
+        <section className='portfolio-container'>
+          <div className='projects'>
+            <h3 className="project-title u-margin-top-medium">{data.projects[currentIndex].name}</h3>
+            <article className="paragraph"><b style={{ fontStyle: 'bold', fontSize: '1.5rem'}}>Overview:</b> {data.projects[currentIndex].description}
+            <br />
+            <br />
+              <article className="paragraph"><span style={{ fontWeight: '600', fontSize: '1.5rem' }}>Tech stack: </span> 
+            {data.projects[currentIndex].techStack}</article>
+
+            <button className='expand-btn' onClick={() => showFeatures()}>Features <span><ExpandMoreIcon fontSize='medium'></ExpandMoreIcon></span></button>
+            </article>
+
+            {features &&
+              <article className="paragraph">{data.projects[currentIndex].features}</article>
+            }
+
+            <img className={data.projects[currentIndex].className} alt='gif of project' src={data.projects[currentIndex].image}/>
+          </div>
+        </section>
+      </div>  
     </div>
   )
 }
