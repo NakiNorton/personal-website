@@ -1,0 +1,26 @@
+.nav-container {
+  text-align: left;
+}
+
+.nav-links {
+  margin: 0!important;
+}
+
+.nav-link {
+  display: inline-block;
+  color: $color-grey-dark-2;
+  font-size: 1.5rem;
+  margin: 0 1.5rem;
+  padding: 0 .5rem;
+  letter-spacing: 2px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  // color: white;
+  
+}
+
+.nav-link:not(:first-child):hover {
+  border-bottom: 1px solid $color-grey-dark-2;
+}
