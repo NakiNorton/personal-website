@@ -43,9 +43,9 @@ const Portfolio = () => {
             {features &&
               <article className="paragraph">{data.projects[currentIndex].features}</article>
             }
-          <div className="img-container">
-            <img className={data.projects[currentIndex].className} alt='gif of project' src={data.projects[currentIndex].image}/>
-          </div>
+            <div className="img-container">
+              <img className={data.projects[currentIndex].className} alt='gif of project' src={data.projects[currentIndex].image}/>
+            </div>
           </div>
         </section>
       </div>  

@@ -8,15 +8,11 @@ import readme from './assets/readMe-photo.png'
 import edible from './assets/edible-photo-v2.png'
 import overlookhotel from './assets/overlookHotel-photo.png'
 import rancidTomatillos from './assets/rancidTomatillos-photo.png'
-import photoDallas from './assets/photoDallas.jpg'
-import photoHiking from './assets/photoHiking.jpg'
-import linkedIn from './assets/linkedIn.jpg'
 
 export const data = {
   name: 'Stephanie Norton',
   email: 's.norton.dev@gmail.com',
   aboutMeSection0: "Software Engineer, avid traveller, hiker, [very] amateur snowboarder." ,
-  photos: [photoHiking, photoDallas],
   projects:[
     {
       id: 1,

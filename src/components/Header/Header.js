@@ -1,6 +1,5 @@
 import React from 'react'
 import './Header.css'
-// import TextButtonFeature from '../TextButtonFeature/TextButtonFeature'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
@@ -8,7 +7,6 @@ const Header = () => {
   return (
       <div className="header">
         <div className="header__text-btn">
-          {/* <TextButtonFeature /> */}
         </div>
         <div className="header__text-box">
           <h1 className="heading-primary">
@@ -22,9 +20,6 @@ const Header = () => {
             <a href='https://github.com/NakiNorton' className='icon-labels'><GitHubIcon className='icon' /> GitHub</a>
           </p>
         </div>
-        
-    
-      
       </div>
   )
 }
