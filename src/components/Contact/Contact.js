@@ -23,7 +23,7 @@ const Contact = () => {
             </ul>
         </section>
       </div> 
-      <p className="logo">SN</p>
+      <p className="logo">Built by Stephanie Norton 2021</p>
     </div>  
   )
 }
