@@ -23,6 +23,7 @@ export default function DotsMobileStepper(props) {
       steps={4}
       position="none"
       activeStep={props.currentIndex}
+      style={{ background: 'none' }}
       className={classes.root}
       nextButton={
         <Button size="large" style={{ color: 'black' }} onClick={props.handleNext} disabled={props.currentIndex === 3}>
