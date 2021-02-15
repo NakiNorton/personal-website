@@ -15,7 +15,7 @@ const AboutMe = () => {
     root: {
       width: '300px',
       height: '300px',
-      opacity: '0.5',
+      opacity: '0.75',
       border: "5px solid white",
       margin: '0 auto',
       '& > *': {

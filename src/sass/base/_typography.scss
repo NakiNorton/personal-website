@@ -5,10 +5,10 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: $color-grey-dark;
-  padding: 3rem;
 }
 
 .heading-primary {
+  text-align: left;
   color: hotpink;
   text-transform: uppercase;
   margin-bottom: 6rem;
@@ -28,9 +28,10 @@ body {
 
   &--sub {
     display: block;
-    font-size: 2.5rem;
+    color: $color-grey-dark-3;
+    font-size: 1.5rem;
     font-weight: 700;
-    letter-spacing: 1rem;
+    letter-spacing: 5px;
     animation: moveInRight 2s ease-out;
   }
 }

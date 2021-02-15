@@ -8,11 +8,10 @@ import Toolbar from '@material-ui/core/Toolbar';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginBottom: '1rem',
   },
   color: {
     backgroundColor: 'white',
-    opacity: .9,
+    opacity: .95,
   },
   menuButton: {
     marginRight: theme.spacing(3),
@@ -29,15 +28,18 @@ const ButtonAppBar = () => {
   return (
    
     <div className={classes.root}>
-      <AppBar position="fixed" className={classes.color} style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <AppBar position="fixed" className={classes.color}>
         <Toolbar>
-          <section className="nav-container">
+          
+          <Link to='header' activeClass="active" spy={true} smooth={true}>
             <ul className="nav-links">
               <li className="nav-link">
-                <Link to='header' activeClass="active" spy={true} smooth={true}>
-                  <h2 className="sml-h2 nav-head">SN</h2>
-                </Link>
+                <h2 className="sml-h2 nav-head">SN</h2>
               </li>
+            </ul>
+          </Link>
+          <section className="nav-container">
+            <ul className="nav-links">
               <li className="nav-link">
                 <Link to='about' activeClass="active" spy={true} smooth={true}>ABOUT ME</Link>
               </li>

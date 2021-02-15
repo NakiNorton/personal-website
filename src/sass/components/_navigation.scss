@@ -1,5 +1,5 @@
 .nav-container {
-  text-align: left;
+  margin: 0 auto;
 }
 
 .nav-links {
@@ -9,7 +9,7 @@
 .nav-link {
   display: inline-block;
   color: $color-grey-dark-2;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0 1.5rem;
   padding: 0 .5rem;
   letter-spacing: 2px;
@@ -17,10 +17,5 @@
 
 .nav-link:hover {
   cursor: pointer;
-  // color: white;
-  
 }
 
-.nav-link:not(:first-child):hover {
-  border-bottom: 1px solid $color-grey-dark-2;
-}
