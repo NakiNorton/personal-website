@@ -14,7 +14,7 @@ import linkedIn from './assets/linkedIn.jpg'
 
 export const data = {
   name: 'Stephanie Norton',
-  email: 'steph.jane.norton@gmail.com',
+  email: 's.norton.dev@gmail.com',
   aboutMeSection0: "Software Engineer, avid traveller, hiker, [very] amateur snowboarder." ,
   photos: [photoHiking, photoDallas],
   projects:[
