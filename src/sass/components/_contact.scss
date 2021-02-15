@@ -1,0 +1,75 @@
+.contact {
+  height: 100vh;
+
+
+  // position: relative;
+  
+}
+  .contact-container {
+    padding: 15rem 6rem;
+    margin-top: 12rem;
+    background-color: $color-grey-light-1;
+    height: 100%;
+    background-image: linear-gradient(
+    to right bottom,
+    rgba($color-grey-light-1, 0.9), 
+    rgba($color-grey-light-2, 0.8)),
+    url(./../../assets/home-background.jpg);
+    background-size: cover;
+   
+    clip-path: polygon(0 0, 100% 45vh, 100% 45vh, 0 100%);
+    text-align: left;
+    z-index: 1;
+     position: relative;
+  
+   &__text-box {
+    margin-top: 5rem;
+    width: 80%;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+.contact-heading {
+  border-bottom: 3px solid white;
+  margin-bottom: 1rem;
+}
+
+.contact-links {
+  list-style: none;
+}
+
+.contact-links:hover {
+  color: hotpink;
+}
+
+.labels, .contact-email {
+  color: $color-grey-dark-3;
+  text-decoration: none;
+  animation: fadeIn 2s ease-in;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+.labels:hover, .contact-email:hover {
+  color: hotpink;
+
+}
+
+.logo {
+  color: hotpink;
+  font-size: 5rem;
+  margin-top: -10rem;
+  width: 100%;
+  text-align: right;
+  padding: 0rem 5rem;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  z-index: 1000;
+  
+}
