@@ -21,7 +21,7 @@ const Portfolio = () => {
   }
 
   return (
-    <div className='portfolio u-margin-top-big'>
+    <div className='portfolio'>
       <h2 className='portfolio-heading heading-secondary'>Portfolio</h2>
       <div className='portfolio-section'>
         <div className='stepper'>
@@ -29,8 +29,8 @@ const Portfolio = () => {
         handleNext={handleNext}/>
         </div>
         <section className='portfolio-container'>
-          <div className='projects'>
-            <h3 className="project-title u-margin-top-medium">{data.projects[currentIndex].name}</h3>
+          <div className="portfolio-col-1">
+            <h3 className="project-title">{data.projects[currentIndex].name}</h3>
             <article className="paragraph"><b style={{ fontStyle: 'bold', fontSize: '1.5rem'}}>Overview:</b> {data.projects[currentIndex].description}
             <br />
             <br />
@@ -43,6 +43,8 @@ const Portfolio = () => {
             {features &&
               <article className="paragraph">{data.projects[currentIndex].features}</article>
             }
+          </div>
+          <div className="portfolio-col-2">
             <div className="img-container">
               <img className={data.projects[currentIndex].className} alt='gif of project' src={data.projects[currentIndex].image}/>
             </div>

@@ -7,7 +7,8 @@ import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: '100%',
+    maxWidth: '50%',
+    margin: '0 auto',
     flexGrow: 1,
   },
 });
@@ -19,13 +20,12 @@ export default function DotsMobileStepper(props) {
   return (
     <MobileStepper
       variant="dots"
-      steps={5}
-      style={{ background: '$color-primary-light-1' }}
+      steps={4}
       position="none"
       activeStep={props.currentIndex}
       className={classes.root}
       nextButton={
-        <Button size="large" style={{ color: 'black' }} onClick={props.handleNext} disabled={props.currentIndex === 4}>
+        <Button size="large" style={{ color: 'black' }} onClick={props.handleNext} disabled={props.currentIndex === 3}>
           Next
           {theme.direction === 'rtl' ? <KeyboardArrowLeft /> : <KeyboardArrowRight />}
         </Button>

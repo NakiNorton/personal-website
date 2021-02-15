@@ -1,6 +1,11 @@
+
+.portfolio {
+  margin-top: 5rem;
+  padding-top: 5rem;
+}
+
 .portfolio-heading {
   text-align: center!important;
-  // background-color: $color-grey-light-1;
 }
 
 .portfolio-section {
@@ -8,11 +13,24 @@
   margin: 0 auto;
 }
 
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+  margin-top: 5rem;
+}
+
+.portfolio-col-1 {
+  border-right: 5px solid $color-grey-light-1;
+  padding-right: 2.5rem;
+}
+
 .img-container {
  text-align: center;
 }
 
 .img {
-  width: 75%;
 
+  width: 100%;
+  padding: 1rem;
 }
