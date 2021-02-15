@@ -5,7 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Header = () => {
   return (
-      <div className="header">
+    <div className="header u-margin-top-medium">
         <div className="header__text-btn">
         </div>
         <div className="header__text-box">
