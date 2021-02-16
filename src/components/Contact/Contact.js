@@ -4,8 +4,6 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './Contact.css'
 
-{/* <span>Photo by <a href="https://unsplash.com/@cadop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mathew Schwartz</a> on <a href="https://unsplash.com/s/photos/black-and-white-flower?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */}
-
 const Contact = () => {
   return (
     <div className='contact'>
