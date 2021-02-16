@@ -31,10 +31,10 @@ const Portfolio = () => {
         <section className='portfolio-container'>
           <div className="portfolio-col-1">
             <h3 className="project-title">{data.projects[currentIndex].name}</h3>
-            <article className="paragraph"><b style={{ fontStyle: 'bold', fontSize: '1.5rem'}}>Overview:</b> {data.projects[currentIndex].description}
+            <article className="paragraph"><b className="project-span-text">Overview:</b> {data.projects[currentIndex].description}
             <br />
             <br />
-              <article className="paragraph"><span style={{ fontWeight: '600', fontSize: '1.5rem' }}>Tech stack: </span> 
+              <article className="paragraph"><b className="project-span-text">Tech stack: </b> 
             {data.projects[currentIndex].techStack}</article>
 
             <button className='expand-btn' onClick={() => showFeatures()}>Features <span><ExpandMoreIcon fontSize='medium'></ExpandMoreIcon></span></button>
