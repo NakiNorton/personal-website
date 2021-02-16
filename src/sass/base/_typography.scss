@@ -63,12 +63,15 @@ body {
     color: $color-black;
   }
 
-
 .paragraph {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  
-  // &:not(:last-child) {
-  //   margin-bottom: 3rem;
-  // }
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.project-span-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
 }

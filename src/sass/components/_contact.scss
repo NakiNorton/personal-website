@@ -2,35 +2,27 @@
   height: 100vh; 
   margin-top: 8rem; 
 }
-  .contact-container {
-    padding: 15rem 6rem;
-    background-color: $color-grey-light-1;
-    height: 100%;
-    background-image: linear-gradient(
-    to right bottom,
-    rgba($color-grey-light-1, 0.9), 
-    rgba($color-grey-light-2, 0.8)),
-    url(./../../assets/home-background.jpg);
-    background-size: cover;
-   
-    clip-path: polygon(0 0, 100% 45vh, 100% 45vh, 0 100%);
-    text-align: left;
-    z-index: 1;
-     position: relative;
-  
-   &__text-box {
-    margin-top: 5rem;
-    width: 80%;
-    position: absolute;
-    top: 80%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-  }
 
+.contact-container {
+  padding: 16rem 12rem;
+  background-color: $color-grey-light-1;
+  height: 100%;
+  background-image: linear-gradient(
+  to right bottom,
+  rgba($color-grey-light-1, 0.9), 
+  rgba($color-grey-light-2, 0.9)),
+  url(./../../assets/black-white-flower.jpg);
+  background-size: cover;
+  
+  clip-path: polygon(0 0, 100% 50%, 100% 50%, 0 100%);
+  // polygon(50% 0, 50% 0, 100% 100%, 0 100%);
+  text-align: left;
+  z-index: 1;
+  position: relative;
 }
 
 .contact-heading {
-  border-bottom: 3px solid white;
+  border-bottom: 5px solid white;
   margin-bottom: 1rem;
 }
 
@@ -43,11 +35,13 @@
 }
 
 .labels, .contact-email {
-  color: $color-grey-dark-3;
+  color: rgb(90, 90, 90);
   text-decoration: none;
   animation: fadeIn 2s ease-in;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: .5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .labels:hover, .contact-email:hover {

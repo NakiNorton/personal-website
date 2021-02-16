@@ -20,8 +20,6 @@
 .about__skill-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
-  // grid-template-rows: 4;
 }
 
 .avatar-container {

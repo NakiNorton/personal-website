@@ -10,12 +10,13 @@
   position: relative;
 
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  
   text-align: center;
 
   &__text-box {
     width: 80%;
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
