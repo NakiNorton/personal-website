@@ -20,36 +20,38 @@ const Portfolio = () => {
     !features ? setFeatures(true) : setFeatures(false)
   }
 
+  const techList = (list) => {
+    return list.map(tech => {
+    return (
+      <ul className='portfolio-tech-list'>
+        <li className='portfolio-pill'>{tech}</li>
+      </ul>
+    )
+    })
+  }
+
+  const projects = () => {
+    return data.projects.map(project => {
+      return (
+        <section className='card'>
+          <div className='img-container'>
+            <img className={project.className} alt='gif of project' src={project.image} />
+          </div>
+          <section className='project-description'>
+            <h3 className='project-title'>{project.name}</h3>
+            <p className='paragraph'>{project.description}</p>
+            <p className='paragraph'>{techList(project.techStack)}</p>
+          </section>
+        </section>
+      )
+    })
+  }
+
   return (
     <div className='portfolio'>
       <h2 className='portfolio-heading heading-secondary'>Portfolio</h2>
       <div className='portfolio-section'>
-        <div className='stepper'>
-        <DotsMobileStepper currentIndex={currentIndex} handleBack={handleBack} 
-        handleNext={handleNext}/>
-        </div>
-        <section className='portfolio-container'>
-          <div className="portfolio-col-1">
-            <h3 className="project-title">{data.projects[currentIndex].name}</h3>
-            <article className="paragraph"><b className="project-span-text">Overview:</b> {data.projects[currentIndex].description}
-            <br />
-            <br />
-              <article className="paragraph"><b className="project-span-text">Tech stack: </b> 
-            {data.projects[currentIndex].techStack}</article>
-
-            <button className='expand-btn' onClick={() => showFeatures()}>Features <span><ExpandMoreIcon fontSize='medium'></ExpandMoreIcon></span></button>
-            </article>
-
-            {features &&
-              <article className="paragraph">{data.projects[currentIndex].features}</article>
-            }
-          </div>
-          <div className="portfolio-col-2">
-            <div className="img-container">
-              <img className={data.projects[currentIndex].className} alt='gif of project' src={data.projects[currentIndex].image}/>
-            </div>
-          </div>
-        </section>
+        { projects() }
       </div>  
     </div>
   )

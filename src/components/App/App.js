@@ -12,7 +12,7 @@ function App() {
     <main className="app">
       <ButtonAppBar />
       <Header id="header"/>
-      <AboutMe id="about-me" />
+      <AboutMe id="about" />
       <Portfolio id="portfolio" />
       <Contact id="contact" />
     </main>

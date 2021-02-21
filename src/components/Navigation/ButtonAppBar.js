@@ -34,7 +34,7 @@ const ButtonAppBar = () => {
           <Link to='header' activeClass="active" spy={true} smooth={true}>
             <ul className="nav-links">
               <li className="nav-link">
-                <h2 className="sml-h2 nav-head">SN</h2>
+                <h2 className="sn-logo">SN</h2>
               </li>
             </ul>
           </Link>

@@ -1,36 +1,75 @@
 
 .portfolio {
-  margin-top: 5rem;
+  margin-top: 10rem;
   padding-top: 5rem;
+  background-color: rgb(69, 72, 88);
 }
 
 .portfolio-heading {
   text-align: center!important;
+  color: white;
 }
 
 .portfolio-section {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-}
-
-.portfolio-container {
   display: grid;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
   margin-top: 5rem;
 }
 
-.portfolio-col-1 {
-  border-right: 5px solid $color-grey-light-1;
-  padding-right: 2.5rem;
-}
-
 .img-container {
- text-align: center;
+  margin: 0 auto;
+  height: 400px;
 }
 
 .img {
-
   width: 100%;
-  padding: 1rem;
+  min-height: 300px;
+  // opacity: .75;
+}
+
+.img:hover {
+  opacity: 1;
+}
+
+.card {
+  border: 3px solid $color-grey-light-2;
+  background-color: white;
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.project-description {
+  padding: 0 1rem;
+}
+
+.portfolio-tech-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.portfolio-pill {
+  // background-color: rgb(143, 142, 142);
+  padding: .25rem;
+  // background: rgba(43, 166, 203, 0.781);
+  // background: rgba(255, 255, 255, 0.822);
+  text-align: center;
+  width: auto;
+  color: black;
+  font-size: 1rem;
+  // border: 2px solid black;
+  margin: .75rem;
+  list-style: none;
+  border-radius: 1rem;
+
+border-radius: 43px;
+background: rgba(33, 167, 167, 0.637);
+box-shadow:  5px 5px 10px #e6e4e4,
+             -5px -5px 10px #ffffff;
 }
