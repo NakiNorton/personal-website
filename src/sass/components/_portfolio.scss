@@ -1,8 +1,8 @@
 
 .portfolio {
   margin-top: 10rem;
-  padding-top: 5rem;
-  background-color: rgb(69, 72, 88);
+  padding: 8rem 0rem;
+  background-color: rgb(42, 51, 42);
 }
 
 .portfolio-heading {
@@ -15,7 +15,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 2.5rem;
   margin-top: 5rem;
 }
 
@@ -26,8 +26,6 @@
 
 .img {
   width: 100%;
-  min-height: 300px;
-  // opacity: .75;
 }
 
 .img:hover {
@@ -35,9 +33,9 @@
 }
 
 .card {
-  border: 3px solid $color-grey-light-2;
+  border: 3px solid $color-white;
   background-color: white;
-
+  border-radius: .375rem;
 }
 
 .card:hover {
@@ -49,27 +47,10 @@
 }
 
 .portfolio-tech-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
+  padding-left: 1rem;
 }
 
-.portfolio-pill {
-  // background-color: rgb(143, 142, 142);
-  padding: .25rem;
-  // background: rgba(43, 166, 203, 0.781);
-  // background: rgba(255, 255, 255, 0.822);
-  text-align: center;
-  width: auto;
-  color: black;
+.tech-item {
+  padding: 0rem 0.5rem;
   font-size: 1rem;
-  // border: 2px solid black;
-  margin: .75rem;
-  list-style: none;
-  border-radius: 1rem;
-
-border-radius: 43px;
-background: rgba(33, 167, 167, 0.637);
-box-shadow:  5px 5px 10px #e6e4e4,
-             -5px -5px 10px #ffffff;
 }

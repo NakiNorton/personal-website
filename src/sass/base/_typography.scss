@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nunito&display=swap');;
 
 body {
-  font-family: 'Comic Neue', cursive;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: $color-grey-dark;
 }
 
 .heading-primary {
-  text-align: left;
-  color: hotpink;
-  text-transform: uppercase;
+  text-align: center;
+  color: $color-white;
   margin-bottom: 6rem;
-  // background-color: $color-white;
-  // border-radius: 3px;
+  letter-spacing: .5rem;
 
   &--main {
     display: block;
-    font-size: 3.5rem;
-    font-weight: 700;
+    font-size: 5rem;
+    font-weight: 400;
     letter-spacing: .5rem;
   
     animation-name: moveInLeft;
@@ -28,10 +28,10 @@ body {
 
   &--sub {
     display: block;
-    color: $color-grey-dark-3;
-    font-size: 1.5rem;
+    color: $color-white;
+    font-size: 1.75rem;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: .5rem;
     animation: moveInRight 2s ease-out;
   }
 }
