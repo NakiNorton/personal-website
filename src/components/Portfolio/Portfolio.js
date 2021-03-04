@@ -23,6 +23,7 @@ const Portfolio = () => {
           </div>
           <section className='project-description'>
             <h3 className='project-title'>{project.name}</h3>
+            <a className='ext-link' href={project.deployedUrl} target="_blank">Deployed App</a> / <a className='ext-link' href={project.githubUrl} target="_blank">View repo</a>
             <p className='paragraph'>{project.description}</p>
             <p className='paragraph'>{techList(project.techStack)}</p>
           </section>
