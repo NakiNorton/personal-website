@@ -6,11 +6,11 @@ const Portfolio = () => {
 
   const techList = (list) => {
     return list.map(tech => {
-    return (
-      <ul className='portfolio-tech-list'>
-        <li className='tech-item'>{tech}</li>
-      </ul>
-    )
+      return (
+        <ul className='portfolio-tech-list'>
+          <li className='tech-item'>{tech}</li>
+        </ul>
+      )
     })
   }
 

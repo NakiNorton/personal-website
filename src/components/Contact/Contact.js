@@ -1,5 +1,4 @@
 import React from 'react'
-import { data } from '../../data'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './Contact.css'
@@ -15,15 +14,13 @@ const Contact = () => {
               <a href='https://www.linkedin.com/in/stephanie-norton-12888453' className='labels'>
               <LinkedInIcon className='icon' classtyle={{ fontSize: 40 }} /> LinkedIn</a>
               </li>
-            <li className='contact-links link'>
+              <li className='contact-links link'>
                 <a href='https://github.com/NakiNorton' className='labels'>
               <GitHubIcon className='icon' classtyle={{ fontSize: 40 }} /> GitHub</a>
               </li>
             </ul>
         </section>
       </div> 
-      <p className="logo">Built by Stephanie Norton 2021</p>
-
     </div>  
   )
 }

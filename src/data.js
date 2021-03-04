@@ -42,16 +42,6 @@ export const data = {
       features: "Users can view top selling books by genre, search for books by author or title, save books to their reading list, click on a book to view the books blurb, and click a button to be redirected to Amazon where they can purchase the book.",
       techStack: ['React, React Router', 'Fetch API', 'Redux', 'CSS', 'Jest', 'React Testing Library']
     },
-    // {
-    //   id: 5,
-    //   name: 'Rancid Tomatillos',
-    //   gif: rancidTomatillosGif,
-    //   image: rancidTomatillos,
-    //   className: 'img',
-    //   description: "Rancid Tomatillos is a movie rating app built for a pair project.", 
-    //   features: "A user can login and rate movies, comment on movies, and favorite/unfavorite movies. If a user doesn't have a login, they can view movie details but they aren't able to share their own ratings or comments, and they do not have favoriting capabilities.",
-    //   techStack: 'React, React Router, Fetch API, CSS, Unit and Integration testing with: Jest, React Testing Library'
-    // }
   ]
 }
 
