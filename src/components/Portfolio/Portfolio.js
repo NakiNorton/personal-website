@@ -24,7 +24,7 @@ const Portfolio = () => {
     return list.map(tech => {
     return (
       <ul className='portfolio-tech-list'>
-        <li className='portfolio-pill'>{tech}</li>
+        <li className='tech-item'>{tech}</li>
       </ul>
     )
     })
