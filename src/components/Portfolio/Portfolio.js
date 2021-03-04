@@ -1,6 +1,6 @@
 import React from 'react'
 import { data } from '../../data'
-import './Portfolio.css'
+
 
 const Portfolio = () => {
 

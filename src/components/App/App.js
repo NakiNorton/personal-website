@@ -4,7 +4,6 @@ import Header from '../Header/Header'
 import Portfolio from '../Portfolio/Portfolio'
 import AboutMe from '../AboutMe/AboutMe'
 import Contact from '../Contact/Contact'
-import './App.css';
 import '../../sass/main.scss';
 
 function App() {
