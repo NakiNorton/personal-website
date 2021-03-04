@@ -1,11 +1,11 @@
 .header {
-  height: 95vh;
+  height: 100vh;
   background-image: 
     url(./../../assets/domenico-gentile.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   text-align: center;
 
   &__text-box {
@@ -24,12 +24,12 @@
     transform: translate(-50%, -50%);
   }
 
-  &____text-btn {
-    width: 80%;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: fadeIn 5s ease-in;
-  }
+  // &____text-btn {
+  //   width: 80%;
+  //   position: absolute;
+  //   top: 20%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   animation: fadeIn 5s ease-in;
+  // }
 }
