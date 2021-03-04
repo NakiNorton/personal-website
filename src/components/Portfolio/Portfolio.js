@@ -1,24 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { data } from '../../data'
-import DotsMobileStepper from '../stepper'
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import './Portfolio.css'
 
 const Portfolio = () => {
-  const [currentIndex, getNextProject] = useState(0);
-  const [features, setFeatures] = useState(false);
-
-  const handleNext = () => {
-    getNextProject((prevActiveStep) => prevActiveStep + 1);
-  };
-
-  const handleBack = () => {
-    getNextProject((prevActiveStep) => prevActiveStep - 1);
-  };
-
-  const showFeatures = () => {
-    !features ? setFeatures(true) : setFeatures(false)
-  }
 
   const techList = (list) => {
     return list.map(tech => {

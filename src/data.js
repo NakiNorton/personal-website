@@ -1,11 +1,10 @@
 import lienFlashGif from './assets/lienflash.gif'
 import readmeGif  from './assets/readme.gif'
 import edibleGif  from './assets/edible.gif'
-import rancidTomatillosGif  from './assets/rancid-short.gif'
 import lienFlash from './assets/lienFlash-home.png'
 import readme from './assets/readMe-new.png'
 import edible from './assets/edible-new.png'
-import rancidTomatillos from './assets/rancidTomatillos-photo.png'
+
 
 export const data = {
   name: 'Stephanie Norton',
