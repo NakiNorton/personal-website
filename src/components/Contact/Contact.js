@@ -11,7 +11,6 @@ const Contact = () => {
         <section className='contact__text-box'> 
           <h2 className='contact-heading heading-secondary'>Get In Touch</h2>
             <ul className='contact-links'>
-            <li className='contact-email'>Email: {data.email}</li>
             <li className='contact-links linkedIn-label link'>
               <a href='https://www.linkedin.com/in/stephanie-norton-12888453' className='labels'>
               <LinkedInIcon className='icon' classtyle={{ fontSize: 40 }} /> LinkedIn</a>
