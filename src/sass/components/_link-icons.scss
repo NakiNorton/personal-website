@@ -1,6 +1,6 @@
-.icon-labels {
+.icon {
   color: $color-white;
-  font-size: 2rem;
+  font-size: 4rem!important;
   padding: 1rem;
   text-decoration: none;
   animation: fadeIn 2s ease-in;
@@ -9,3 +9,15 @@
     border-bottom: 2px solid $color-white;
   }
 }
+
+@media only screen and (max-width: 420px)  {
+  .icon {
+    font-size: 3rem!important;
+  }
+} 
+
+@media only screen and (max-width: 320px)  {
+  .icon {
+    font-size: 2.5rem!important;
+  }
+} 

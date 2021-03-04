@@ -17,19 +17,19 @@
   }
 
   &__contact-icons {
-    width: 80%;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding-top: 0rem;
   }
-
-  // &____text-btn {
-  //   width: 80%;
-  //   position: absolute;
-  //   top: 20%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%);
-  //   animation: fadeIn 5s ease-in;
-  // }
 }
+
+@media only screen and (max-width: 1400px)  {
+  .header {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 768px)  {
+  .header {
+    height: 80vh;
+    clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+  }
+} 
