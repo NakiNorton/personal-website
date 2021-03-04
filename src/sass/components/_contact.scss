@@ -1,34 +1,40 @@
 .contact {
   height: 100vh; 
-}
+  
+  &__container {
+    padding: 6rem;
+    // background-color: $color-grey-light-1;
+    height: 100%;
+    background-image: url(./../../assets/domenico-gentile.jpg);
+    background-size: cover;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+  }
 
-.contact-container {
-  padding: 6rem;
-  // background-color: $color-grey-light-1;
-  height: 100%;
-  background-image: url(./../../assets/domenico-gentile.jpg);
-  background-size: cover;
-  text-align: center;
-  z-index: 1;
-  position: relative;
-}
-
-.contact-heading {
+  &__heading {
   color: $color-white;
   border-bottom: 1px solid white;
   margin-bottom: 2rem;
 }
+
+
+  &__contact-icons {
+      padding-top: 0rem;
+    }
+}  
+
 
 .contact-links {
   display: inline;
   list-style: none;
 }
 
+ 
 
-.labels {
+.label {
   color: $color-white;
   text-decoration: none;
-  animation: fadeIn 2s ease-in;
   font-size: 1.2rem;
   padding: .5rem;
   font-family: 'Roboto', sans-serif;

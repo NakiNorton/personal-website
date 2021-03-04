@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import './Contact.css'
 
 const Contact = () => {
   const [name, setName] = useState('')
@@ -35,20 +34,13 @@ const Contact = () => {
 
   return (
     <div className='contact'>
-      <div className='contact-container'>
-        <section className='contact__text-box'> 
-          <h2 className='contact-heading heading-secondary'>Get In Touch</h2>
-            <ul className='contact-links'>
-            <li className='contact-links linkedIn-label link'>
-              <a href='https://www.linkedin.com/in/stephanie-norton-12888453' className='labels'>
-              <LinkedInIcon className='icon' classtyle={{ fontSize: 40 }} /> LinkedIn</a>
-              </li>
-              <li className='contact-links link'>
-                <a href='https://github.com/NakiNorton' className='labels'>
-              <GitHubIcon className='icon' classtyle={{ fontSize: 40 }} /> GitHub</a>
-              </li>
-            </ul>
-        </section>
+      <div className='contact__container'>
+        <h2 className='contact__heading heading-secondary'>Get In Touch</h2>
+        <div className='contact__contact-icons'>
+          <a className='icon' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon fontSize='inherit' /></a>
+          <a href='https://github.com/NakiNorton' className='icon'><GitHubIcon fontSize='inherit' /></a>
+        </div>
+   
         <div className="form-area">
           {msgSubmitted &&
             <p className="p">Thanks for your message!</p>
