@@ -7,7 +7,6 @@ import Toolbar from '@material-ui/core/Toolbar';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    height: '3vh',
     flexGrow: 1,
   },
   color: {
