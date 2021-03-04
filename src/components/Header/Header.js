@@ -14,13 +14,15 @@ const Header = () => {
             <span className="heading-primary--main">Stephanie Norton</span>
             <span className="heading-primary--sub"> Frontend Software Engineer.</span>
           </h1>
-        </div>
+
         <div className='header__contact-icons'>
           <p className='icon-text'>
-          <a className='linkedIn icon-labels' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon className='icon' style={{ fontSize: '3rem' }} /></a>
-            <a href='https://github.com/NakiNorton' className='icon-labels'><GitHubIcon className='icon' style={{ fontSize: '3rem'}}/></a>
+            <a className='linkedIn icon-labels' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon className='icon' style={{ fontSize: '3rem' }} /></a>
+            <a href='https://github.com/NakiNorton' className='icon-labels'><GitHubIcon className='icon' style={{ fontSize: '3rem' }} /></a>
           </p>
         </div>
+        </div>
+        
       </div>
   )
 }
