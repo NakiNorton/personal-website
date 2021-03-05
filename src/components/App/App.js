@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ButtonAppBar from '../Navigation/ButtonAppBar';
+import NavBar from '../Navigation/NavBar';
 import Header from '../Header/Header'
 import Portfolio from '../Portfolio/Portfolio'
 import AboutMe from '../AboutMe/AboutMe'
@@ -33,7 +33,7 @@ const App = () => {
 
   return (
     <main className="app">
-      <ButtonAppBar />
+      <NavBar />
       <Header id="header" isLoading={isLoading}/>
       <AboutMe id="about" />
       <Portfolio id="portfolio" />

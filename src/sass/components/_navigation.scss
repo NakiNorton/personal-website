@@ -26,6 +26,62 @@
   border-radius: 50%;
 }
 
+/* Hamburger Menu *///////////
+
+.menu-item {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+    outline: none;
+  border: none;
+}
+
+.menu-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 24px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: lightgray;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #2b2c33;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.1rem;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+@media (min-width: 769px)  {
+  #mobile {
+    display: none;
+  }
+} 
+
+@media (max-width: 768px)  {
+  #desktop {
+    display: none;
+  }
+} 
+
 @media only screen and (max-width: 420px)  {
  .sn-logo {
     background-color: rgb(35, 36, 35);
