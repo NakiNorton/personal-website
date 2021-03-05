@@ -39,7 +39,7 @@ const NavBar = () => {
               <section className="nav-container">
                 <ul className="nav-links">
                   <li className="nav-link">
-                    <Link to='about' activeClass="active" spy={true} smooth={true}>ABOUT ME</Link>
+                    <Link to='about' activeClass="active" spy={true} smooth={true}>ABOUT</Link>
                   </li>
                   <li className="nav-link">
                     <Link to='portfolio' activeClass="active" spy={true} smooth={true} >PORTFOLIO</Link>
