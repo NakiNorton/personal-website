@@ -1,6 +1,6 @@
 .icon {
   color: $color-white;
-  font-size: 4rem!important;
+  font-size: 3rem!important;
   padding: 1rem;
   text-decoration: none;
   animation: fadeIn 2s ease-in;
@@ -12,12 +12,12 @@
 
 @media only screen and (max-width: 420px)  {
   .icon {
-    font-size: 3rem!important;
+    font-size: 2.5rem!important;
   }
 } 
 
 @media only screen and (max-width: 320px)  {
   .icon {
-    font-size: 2.5rem!important;
+    font-size: 2.25rem!important;
   }
 } 
