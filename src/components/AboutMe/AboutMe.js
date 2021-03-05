@@ -1,32 +1,16 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import linkedIn from '../../assets/linkedIn.jpg'
 
 
 
 const AboutMe = () => {
-  const useStyles = makeStyles((theme) => ({
-    root: {
-      width: '250px',
-      height: '250px',
-      opacity: '0.75',
-      border: "5px solid white",
-      margin: '0 auto',
-      '& > *': {
-        margin: theme.spacing(1),
-      },
-    },
-  }));
-
-  const classes = useStyles();
-
   return (
     <div className='about'>
       <h2 className='about__heading heading-secondary'>About</h2>
       <div className='section-about'>
         <div className="avatar-container">
-          <Avatar className={classes.root} src={linkedIn} alt="LinkedIn profile photo" />
+          <Avatar id="avatar" src={linkedIn} alt="LinkedIn profile photo" />
         </div>
 
         <div className="about__textbox">

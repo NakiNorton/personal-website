@@ -2,7 +2,7 @@
   // margin-top: -50vh;
   background-color: $color-grey-light-1;
   padding: 6rem 0 5px 0;
-  // height: 90vh;
+  width: 100vw;
 }
 
 .about__heading {
@@ -14,34 +14,96 @@
   display: grid;
   align-items: center;
   grid-template-columns: 30% 70%;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 } 
 
 .about__skill-list {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 }
 
 .avatar-container {
   padding-bottom: 1.5rem;
 }
 
+#avatar {
+  width: 250px;
+  height: 250px;
+  opacity: 0.75;
+  border: 5px solid white;
+  margin: 0 auto;
+}
+
 .pill {
+
   // background-color: rgb(143, 142, 142);
-  padding: .25rem .5rem;
+  padding: .25rem 1rem;
   // background: rgba(43, 166, 203, 0.781);
   // background: rgba(255, 255, 255, 0.822);
   text-align: center;
   // width: 250px;
   color: black;
-  font-size: 1rem;
+  font-size: .9rem;
   // border: 2px solid black;
   margin: .75rem;
   list-style: none;
   border-radius: 1rem;
-
-border-radius: 43px;
-background: $color-grey-light-1;
-box-shadow:  5px 5px 10px #e6e4e4,
-             -5px -5px 10px #ffffff;
+  border-radius: 43px;
+  background: $color-grey-light-1;
+  box-shadow:  5px 5px 10px #e6e4e4,
+              -5px -5px 10px #ffffff;
+              // width: -moz-fit-content;
+  white-space: nowrap;
+  //  width: fit-content;
 }
+
+@media only screen and (max-width: 1240px)  {
+  .section-about {
+    grid-template-columns: 20% 80%;
+  }
+
+  #avatar {
+    width: 200px;
+    height: 200px;
+    opacity: 0.75;
+    border: 5px solid white;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1024px)  {
+  .section-about {
+    width: 100vw;
+    grid-template-columns: none;
+  }
+
+  #avatar, .avatar-container {
+    display: none;
+  }
+
+  .heading-tertiary {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .pill {
+    font-size: 1rem;
+  }
+} 
+
+@media only screen and (max-width: 420px)  {
+  .about__skill-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+
+  .section-about {
+    padding: 1rem;
+  }
+
+  .pill {
+    font-size: .8rem;
+    white-space: pre-wrap;
+    align-self: center;
+  }
+} 
