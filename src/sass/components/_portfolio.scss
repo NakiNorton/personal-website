@@ -56,3 +56,15 @@
   padding: 0rem 0.5rem;
   font-size: 1rem;
 }
+
+
+@media only screen and (max-width: 420px)  {
+  .portfolio {
+    margin-top: 4rem;
+    padding-top: 6rem;
+  }
+
+  .portfolio-section {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+} 
