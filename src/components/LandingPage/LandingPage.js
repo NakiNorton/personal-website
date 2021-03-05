@@ -2,7 +2,7 @@ import React from 'react'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
-const Header = ({ isLoading }) => {
+const LandingPage = ({ isLoading }) => {
   return (
     <div className="header u-margin-top-medium">
       <div className="header__text-box">
@@ -26,4 +26,4 @@ const Header = ({ isLoading }) => {
   )
 }
 
-export default Header;
+export default LandingPage;

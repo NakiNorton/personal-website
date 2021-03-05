@@ -26,40 +26,37 @@ const NavBar = () => {
 
   return (
     <>
-    <div id='desktop'>
-      <div className={ 'desktop', classes.root}>
-        <AppBar position="fixed" className={classes.color}>
-          <Toolbar>
-            <Link to='header' activeClass="active" spy={true} smooth={true}>
-              <ul className="nav-links">
-                <li className="nav-link">
-                  <h2 className="sn-logo">SN</h2>
-                </li>
-              </ul>
-            </Link>
-            <section className="nav-container">
-              <ul className="nav-links">
-                <li className="nav-link">
-                  <Link to='about' activeClass="active" spy={true} smooth={true}>ABOUT ME</Link>
-                </li>
-                <li className="nav-link">
-                  <Link to='portfolio' activeClass="active" spy={true} smooth={true} >PORTFOLIO</Link>
-                </li>
-                <li className="nav-link">
-                  <Link to='contact' activeClass="active" spy={true} smooth={true} >CONTACT</Link>
-                </li>
-              </ul>
-            </section>
-          </Toolbar>
-        </AppBar>
+      <div id='desktop'>
+        <div className={classes.root}>
+          <AppBar position="fixed" className={classes.color}>
+            <Toolbar>
+              <Link to='header' activeClass="active" spy={true} smooth={true}>
+                <ul className="nav-links">
+                  <li className="nav-link">
+                    <h2 className="sn-logo">SN</h2>
+                  </li>
+                </ul>
+              </Link>
+              <section className="nav-container">
+                <ul className="nav-links">
+                  <li className="nav-link">
+                    <Link to='about' activeClass="active" spy={true} smooth={true}>ABOUT ME</Link>
+                  </li>
+                  <li className="nav-link">
+                    <Link to='portfolio' activeClass="active" spy={true} smooth={true} >PORTFOLIO</Link>
+                  </li>
+                  <li className="nav-link">
+                    <Link to='contact' activeClass="active" spy={true} smooth={true} >CONTACT</Link>
+                  </li>
+                </ul>
+              </section>
+            </Toolbar>
+          </AppBar>
+        </div>
       </div>
-    </div>
-
-    <div id="mobile">
-      <BurgerMenu
- 
-      />
-    </div>
+      <div id="mobile">
+        <BurgerMenu/>
+      </div>
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from '../Navigation/NavBar';
-import Header from '../Header/Header'
+import LandingPage from '../LandingPage/LandingPage'
 import Portfolio from '../Portfolio/Portfolio'
 import AboutMe from '../AboutMe/AboutMe'
 import Contact from '../Contact/Contact'
@@ -34,7 +34,7 @@ const App = () => {
   return (
     <main className="app">
       <NavBar />
-      <Header id="header" isLoading={isLoading}/>
+      <LandingPage id="header" isLoading={isLoading}/>
       <AboutMe id="about" />
       <Portfolio id="portfolio" />
       <Contact id="contact" />
