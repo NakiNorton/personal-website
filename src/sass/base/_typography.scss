@@ -50,7 +50,7 @@ body {
   margin-top: 2rem;
   font-size: $default-font-size;
   font-weight: 700;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   color: $color-black;
 }
 
@@ -106,6 +106,10 @@ body {
     &--sub {
       font-size: 5vw;
     }
+  }
+
+  .heading-secondary {
+    font-size: 2.5rem;
   }
 } 
 

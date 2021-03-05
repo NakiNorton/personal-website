@@ -88,3 +88,22 @@ input, #message {
   color: $color-white;
 }
 
+@media only screen and (max-width: 420px)  {
+  .contact__container {
+    width: 100vw;
+    padding: 6rem 1rem;
+  } 
+
+  .form-area {
+    padding: 0;
+    width: 100%;
+  }
+} 
+
+@media only screen and (max-width: 320px)  {
+  .contact__container {
+    padding: 5rem .5rem;
+  } 
+
+} 
+
