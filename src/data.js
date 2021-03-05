@@ -8,8 +8,6 @@ import edible from './assets/edible-new.png'
 
 export const data = {
   name: 'Stephanie Norton',
-  email: 's.norton.dev@gmail.com',
-  aboutMeSection0: "Software Engineer, avid traveller, hiker, [very] amateur snowboarder." ,
   projects:[
     {
       id: 1,
@@ -22,7 +20,7 @@ export const data = {
       description: 'LienFlash is a client backed app built for a team of lawyers who experienced frustration in dealing with the Lien filing process. This app was developed with two front-end developers (myself and one other) and a back-end team.', 
       features: 
        'LienFlash is a Progressive Web App, it can be used in the browser or it can be installed on a desktop or a mobile device. The app allows a user to login as either a general user (client) or an admin.  Users can create a new job, track that job in the lien process, and submit the job info to an administrator when they are ready to submit a Notice of Intent, Lien, or Release of Lien. Users are sent SMS notifications to remind them of upcoming deadlines.',
-      techStack: ['React (w/ Hooks), React Router', 'JSON Web Token (JWT)', 'Fetch API', 'Redux', 'Material UI', 'Continuous Integration(Travis CI)', 'Jest', 'React Testing Library']
+      techStack: "React (w/ Hooks) / React Router / JSON Web Token (JWT) / Fetch API / Redux / Material UI / Continuous Integration (Travis CI) / Jest / React Testing Library"
     },
     {
       id: 2,

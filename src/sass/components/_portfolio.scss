@@ -1,13 +1,12 @@
 
 .portfolio {
-  margin-top: 10rem;
+  margin-top: 4rem;
   padding: 8rem 0rem;
-  background-color: rgb(23, 31, 23);
 }
 
 .portfolio-heading {
   text-align: center!important;
-  color: white;
+  color: $color-grey-dark-3;
 }
 
 .portfolio-section {
@@ -16,7 +15,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   grid-gap: 2.5rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .img-container {
@@ -35,9 +34,11 @@
 .card {
   margin: 0 auto;
   max-width: 400px;
-  border: 3px solid $color-white;
+  // border: 3px solid $color-white;
   background-color: white;
   border-radius: .375rem;
+  box-shadow:  5px 5px 10px #e6e4e4,
+              -5px -5px 10px #ffffff;
 }
 
 .card:hover {
@@ -63,8 +64,12 @@
     margin-top: 4rem;
     padding-top: 6rem;
   }
-
+  
   .portfolio-section {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
+
+  .card:hover {
+  transform: none;
+}
 } 

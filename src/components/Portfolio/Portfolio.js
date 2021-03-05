@@ -4,16 +4,6 @@ import { data } from '../../data'
 
 const Portfolio = () => {
 
-  const techList = (list) => {
-    return list.map(tech => {
-      return (
-        <ul className='portfolio-tech-list'>
-          <li className='tech-item'>{tech}</li>
-        </ul>
-      )
-    })
-  }
-
   const projects = () => {
     return data.projects.map(project => {
       return (
@@ -25,7 +15,8 @@ const Portfolio = () => {
             <h3 className='project-title'>{project.name}</h3>
             <a className='ext-link' href={project.deployedUrl} target="_blank" rel="noreferrer">Deployed App</a> / <a className='ext-link' href={project.githubUrl} target="_blank" rel="noreferrer">View repo</a>
             <p className='paragraph'>{project.description}</p>
-            <p className='paragraph'>{techList(project.techStack)}</p>
+            <p className='paragraph' style={{ color: 'black', marginBottom: '0'}}>Tech Stack:</p>
+            <p className='paragraph'>{project.techStack}</p>
           </section>
         </section>
       )
@@ -33,7 +24,7 @@ const Portfolio = () => {
   }
 
   return (
-    <div className='portfolio'>
+    <div className='portfolio u-margin-bottom-medium'>
       <h2 className='portfolio-heading heading-secondary'>Portfolio</h2>
       <div className='portfolio-section'>
         { projects() }
