@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
 .nav-container {
   margin: 0 auto;
 }
@@ -20,10 +22,12 @@
 }
 
 .sn-logo {
-  background-color: rgb(35, 36, 35);
-  color: white;
-  padding: .2rem .5rem;
-  border-radius: 50%;
+  border: 1px solid rgb(253, 125, 125);
+  // background-color: rgb(35, 36, 35);
+  color: rgb(253, 125, 125);
+  padding: 0rem .25rem;
+  // border-radius: 50%;
+  font-family: 'Noto Serif JP', serif;
 }
 
 /* Hamburger Menu *///////////
