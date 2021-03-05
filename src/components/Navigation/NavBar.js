@@ -1,5 +1,4 @@
 import React from 'react'
-import BurgerMenu from './BurgerMenu'
 import { Link } from "react-scroll";
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -53,9 +52,6 @@ const NavBar = () => {
             </Toolbar>
           </AppBar>
         </div>
-      </div>
-      <div id="mobile">
-        <BurgerMenu/>
       </div>
     </>
   );

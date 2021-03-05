@@ -1,10 +1,14 @@
 import React from 'react'
+import BurgerMenu from './../Navigation/BurgerMenu'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 const LandingPage = ({ isLoading }) => {
   return (
     <div className="header u-margin-top-medium">
+      <div id="mobile">
+        <BurgerMenu />
+      </div>
       <div className="header__text-box">
         { isLoading &&
           <h1 style={{ color: 'lightgrey' }}>Loading . . .</h1>
