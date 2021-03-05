@@ -39,6 +39,9 @@ const Contact = () => {
         <div className='contact__contact-icons'>
           <a className='icon' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon fontSize='inherit' /></a>
           <a href='https://github.com/NakiNorton' className='icon'><GitHubIcon fontSize='inherit' /></a>
+          {!msgSubmitted &&
+            <p style={{color: 'white', fontSize: '1.25rem'}}>Send me a message</p>
+          }
         </div>
    
         <div className="form-area">
