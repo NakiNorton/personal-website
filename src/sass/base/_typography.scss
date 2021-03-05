@@ -61,7 +61,7 @@ body {
     color: $color-black;
   }
 
-.paragraph, .ext-link  {
+.paragraph, .ext-link, .about__skill-list  {
   font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: 300;
@@ -110,6 +110,10 @@ body {
 
   .heading-secondary {
     font-size: 2.5rem;
+  }
+
+  .paragraph {
+    padding: 0 2rem;
   }
 } 
 

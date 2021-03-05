@@ -17,7 +17,7 @@ const AboutMe = () => {
           <p className="paragraph">I'm an empathetic software developer with a wealth of experience working both collaboratively and independently to deliver quality results. I love problem solving, variety in my work, and user-centric design.
           </p>
           <h3 className="heading-tertiary u-margin-bottom-small">Key Skills</h3>
-            <ul className='about__skill-list paragraph'>
+            <ul className='about__skill-list'>
               <li className='pill'>React</li>
               <li className='pill'>React Hooks</li>
               <li className='pill'>Javascript ES5/ES6</li>
