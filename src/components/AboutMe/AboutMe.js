@@ -14,7 +14,12 @@ const AboutMe = () => {
 
         <div className="about__textbox">
           <h2 className='about__heading heading-secondary'>About</h2>
-          <p className="paragraph u-margin-top-medium">I'm an empathetic software developer with a wealth of experience working both collaboratively and independently to deliver quality results. I love problem solving, variety in my work, and user-centric design.
+          <p className="paragraph u-margin-top-medium">Hi! I’m Stephanie Norton, a software engineer based in Denver, CO. My current focus is  front-end development working in Javascript with ReactJS. I love the creativity and UI/UX of front-end development but also I’m interested in expanding my knowledge and experience in back-end technologies. 
+          <br />
+          <br />
+          After graduating from Turing School of Software and Design in November 2020 I joined an early stage startup,Termscout, on a contract basis. Joining one month prior to launch I built major features that contributed being number one on Product Hunt.
+          
+          I have a wealth of experience working both collaboratively and independently to deliver quality results. I love problem solving, variety in my work, and user-centric design.
           </p>
           <h3 className="heading-tertiary u-margin-bottom-small" style={{ textAlign: 'center'}}>Key Skills</h3>
             <ul className='about__skill-list'>
