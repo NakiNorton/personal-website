@@ -1,8 +1,6 @@
 import lienFlashGif from './assets/lienflash.gif'
-import readmeGif  from './assets/readme.gif'
 import edibleGif  from './assets/edible.gif'
 import lienFlash from './assets/lienFlash-home.png'
-import readme from './assets/readMe-new.png'
 import edible from './assets/edible-new.png'
 
 
@@ -37,8 +35,6 @@ export const data = {
     {
       id: 3,
       name: 'ReadMe',
-      gif: readmeGif,
-      image: readme,
       className: 'img', 
       deployedUrl: 'https://readme-deploy.herokuapp.com/',
       githubUrl: 'https://github.com/NakiNorton/ReadMe',
