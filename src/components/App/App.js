@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import NavBar from '../Navigation/NavBar';
 import LandingPage from '../LandingPage/LandingPage'
 import Portfolio from '../Portfolio/Portfolio'
