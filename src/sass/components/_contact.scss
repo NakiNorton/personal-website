@@ -1,9 +1,8 @@
 .contact {
-  height: 100vh; 
+  height: 50rem; 
   
   &__container {
     padding: 6rem;
-    // background-color: $color-grey-light-1;
     height: 100%;
     background-image: url(./../../assets/domenico-gentile.jpg);
     background-size: cover;
@@ -19,8 +18,8 @@
 
 
   &__contact-icons {
-      padding-top: 0rem;
-    }
+    padding-top: 0rem;
+  }
 }  
 
 

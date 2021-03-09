@@ -62,15 +62,19 @@
 
 @media only screen and (max-width: 420px)  {
   .portfolio {
-    margin-top: 4rem;
-    padding-top: 6rem;
+    padding-top: 1rem;
+    margin-top: 2.5rem;
   }
   
   .portfolio-section {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 
+  .card {
+    margin-bottom: 2rem;
+  }
+  
   .card:hover {
-  transform: none;
-}
+    transform: none;
+  }
 } 

@@ -40,15 +40,13 @@
   text-decoration: none;
   list-style: none;
   margin-bottom: 10px;
-  color: #d1d1d1;
+  color: $color-white;
   transition: color 0.2s;
   outline: none;
   border: none;
+  text-align: left;
 }
 
-.menu-item:hover {
-  color: white;
-}
 
 .bm-burger-button {
   position: fixed;
@@ -67,13 +65,16 @@
 }
 
 .bm-menu {
-  background: #2b2c33;
-  padding: 2.5em 1.5em 0;
+  background: rgb(34, 34, 34);
+  padding: 5rem 1.5em 0;
   font-size: 1.1rem;
+  max-height: 25rem!important;
+  border-radius: .5rem;
+  width: 100%;
 }
 
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(54, 53, 53, 0.194);
 }
 
 
@@ -106,7 +107,7 @@
     position: absolute;
     width: 26px;
     height: 20px;
-    left: 30px;
-    top: 30px;
+    left: 15px;
+    top: 25px;
   }
 } 
