@@ -18,7 +18,7 @@ export const data = {
     },
     {
       id: 2,
-      name: 'Portfolio',
+      name: 'My Portfolio',
       image: portfolio,
       className: 'img', 
       deployedUrl: 'https://www.stephanie-norton.com/',
