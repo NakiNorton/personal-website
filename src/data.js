@@ -23,7 +23,6 @@ export const data = {
       className: 'img', 
       deployedUrl: 'https://www.stephanie-norton.com/',
       githubUrl: 'https://github.com/NakiNorton/personal-website',
-      className: 'img', 
       description: 'My portfolio is a website built to showcase a few of my projects and make it easy for people to connect with me.', 
       techStack: 'React / react-scroll / EmailJS / Material UI / SASS/SCSS, Netlify' 
     },
