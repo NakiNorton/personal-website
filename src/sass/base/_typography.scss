@@ -45,11 +45,10 @@ body {
   animation: fadeIn 3s ease-in;
 }
 
-.heading-tertiary {
+.heading-tertiary, .resume  {
   margin-top: 2rem;
   font-size: $default-font-size;
   font-weight: 700;
-  // text-transform: uppercase;
   color: $color-black;
 }
 

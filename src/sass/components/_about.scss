@@ -47,6 +47,10 @@
   //  width: fit-content;
 }
 
+.resume {
+  color: rgb(253, 125, 125)!important;
+}
+
 @media only screen and (max-width: 1240px)  {
   .section-about {
     grid-template-columns: 20% 80%;
