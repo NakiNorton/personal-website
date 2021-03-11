@@ -53,11 +53,12 @@ body {
 }
 
  .project-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
     color: $color-black;
-    margin-top: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
   }
 
 .paragraph, .ext-link, .about__skill-list  {
