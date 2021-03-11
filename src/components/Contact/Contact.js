@@ -40,7 +40,7 @@ const Contact = () => {
           <a className='icon' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon fontSize='inherit' /></a>
           <a href='https://github.com/NakiNorton' className='icon'><GitHubIcon fontSize='inherit' /></a>
           {!msgSubmitted &&
-            <p style={{color: 'white', fontSize: '1.25rem'}}>Send me a message</p>
+            <p style={{color: 'white', fontSize: '1.25rem'}}>Connect with me on LinkedIn, GitHub, or send me a message below.</p>
           }
         </div>
    
