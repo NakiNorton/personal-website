@@ -17,12 +17,10 @@
   margin-bottom: 2rem;
 }
 
-
   &__contact-icons {
-    padding-top: 0rem;
+    padding-top: 1.5rem;
   }
 }  
-
 
 .contact-links {
   display: inline;
@@ -30,7 +28,6 @@
 }
 
  
-
 .label {
   color: $color-white;
   text-decoration: none;
@@ -40,14 +37,10 @@
   font-weight: 300;
 }
 
-// .labels:hover, .contact-email:hover {
-//   color: rgb(89, 153, 109);
-// }
-
 .form-area {
   margin: 0 auto;
   width: 40%;
-  padding: 2rem 2.5rem;
+  padding: 1rem 2.5rem;
   border-radius: 1rem;
 
   background-color: transparent;
@@ -87,6 +80,14 @@ input, #message {
   color: $color-white;
 }
 
+@media only screen and (max-width: 1024px)  {
+  .form-area {
+    margin-top: 1rem 0;
+    padding: 0;
+    width: 60%;
+  }
+}
+
 @media only screen and (max-width: 420px)  {
   .contact__container {
     width: 100vw;
@@ -94,7 +95,6 @@ input, #message {
   } 
 
   .form-area {
-    padding: 0;
     width: 100%;
   }
 } 
