@@ -28,9 +28,12 @@
 #avatar {
   width: 250px;
   height: 250px;
-  opacity: 0.7;
   border: 5px solid white;
   margin: 0 auto;
+}
+
+#avatar-mobile-only {
+  visibility: hidden;
 }
 
 .pill {
@@ -44,6 +47,7 @@
   box-shadow:  5px 5px 10px #e6e4e4,
               -5px -5px 10px #ffffff;
   white-space: nowrap;
+  color: rgb(46, 45, 45);
   //  width: fit-content;
 }
 
@@ -68,11 +72,29 @@
 @media only screen and (max-width: 1024px)  {
   .section-about {
     width: 100vw;
-    grid-template-columns: none;
+    grid-template-columns: 0% 100%;
+    grid-gap: 0!important;
+    margin-top: 2rem;
   }
 
   #avatar, .avatar-container {
-    display: none;
+    visibility: hidden;
+  }
+
+  #avatar-mobile-only {
+    visibility: visible;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    margin: 0 auto;
+  }
+
+  #avatar-mobile-container {
+    visibility: visible;
+    width: 160px;
+    height: 160px;
+    border: 5px solid white;
+    margin: 0 auto;
   }
 
   .heading-tertiary {
