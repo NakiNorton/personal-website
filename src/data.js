@@ -24,7 +24,7 @@ export const data = {
       className: 'img',
       deployedUrl: 'https://www.finrahzel.com/',
       githubUrl: 'https://github.com/NakiNorton/Fin-Rah-Zel',
-      description: 'Fin Rah Zel is a website built for a New Zealand musician who wants to share his latest music, info about upcoming performances and enbale people to connect with him outside of social media applications. This is still a work in progress.',
+      description: 'Fin Rah Zel is a website built for a New Zealand musician who wants to share his latest music, info about upcoming performances and enable people to connect with him outside of social media applications. This is still a work in progress.',
       techStack: 'React / CSS / Material UI / react-scroll / EmailJS / Netlify'
     },    {
       id: 2,
@@ -44,7 +44,7 @@ export const data = {
       deployedUrl: 'https://readme-deploy.herokuapp.com/',
       githubUrl: 'https://github.com/NakiNorton/ReadMe',
       description: "ReadMe is a book tracking app for avid readers using the New York Times API. Users can view top selling books by genre, search for books by author or title, save books to their reading list, click on a book to view the books blurb, and click a button to be redirected to Amazon where they can purchase the book.",
-      techStack: 'React / Redux / React Router / Fetch API / Redux / CSS / Jest / React Testing Library'
+      techStack: 'React / Redux / React Router / Fetch API / CSS / Jest / React Testing Library'
     },
   ]
 }
