@@ -4,15 +4,15 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Contact = () => {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
-  const [msgSubmitted, setMsgSubmitted] = useState(false)
-  const [msgError, setMsgError] = useState(false)
+  const [ name, setName ] = useState('')
+  const [ email, setEmail ] = useState('')
+  const [ message, setMessage ] = useState('')
+  const [ msgSubmitted, setMsgSubmitted ] = useState(false)
+  const [ msgError, setMsgError ] = useState(false)
 
   const handleClick = (e) => {
-    let service_id = 'contactForm'
-    const templateId = 'contactForm'
+    let service_id = 'portfolioContactForm'
+    const templateId = 'portfolioContactForm'
     const userId = 'user_kLBvhhw1nt5nmgAeYLlAk'
     const templateParams = {
       'from_name': name,
