@@ -2,7 +2,7 @@ import React from 'react'
 import Avatar from '@material-ui/core/Avatar';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 import profileImg from '../../assets/profile_img_side_lg.jpg'
-import resume from '../../assets/StephanieNortonResume.pdf'
+import resume from '../../assets/Stephanie_Norton_Resume.pdf'
 
 
 

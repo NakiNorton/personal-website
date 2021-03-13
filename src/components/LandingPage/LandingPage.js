@@ -3,7 +3,7 @@ import BurgerMenu from './../Navigation/BurgerMenu'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import ResumeIcon from '@material-ui/icons/Description';
-import resume from '../../assets/StephanieNortonResume.pdf'
+import resume from '../../assets/Stephanie_Norton_Resume.pdf'
 import Tooltip from '@material-ui/core/Tooltip';
 
 
@@ -19,8 +19,8 @@ const LandingPage = () => {
           <span className="heading-primary--sub"> Front-end Software Engineer.</span>
         </h1>
         <div className='header__contact-icons'>
-          <a className='icon' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon fontSize='inherit' /></a>
-          <a href='https://github.com/NakiNorton' className='icon'><GitHubIcon fontSize='inherit'/></a>
+          <a className='icon' href='https://www.linkedin.com/in/stephanie-norton-12888453/' target="_blank" rel='noreferrer'><LinkedInIcon fontSize='inherit' /></a>
+          <a href='https://github.com/NakiNorton' className='icon' target="_blank" rel='noreferrer'><GitHubIcon fontSize='inherit'/></a>
           <Tooltip title="Resume">
             <a href={resume} target="_blank" rel='noreferrer' className='icon'><ResumeIcon fontSize='inherit' /></a>
           </Tooltip>
