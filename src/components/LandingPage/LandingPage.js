@@ -4,6 +4,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import ResumeIcon from '@material-ui/icons/Description';
 import resume from '../../assets/StephanieNortonResume.pdf'
+import Tooltip from '@material-ui/core/Tooltip';
+
 
 const LandingPage = () => {
   return (
@@ -19,7 +21,9 @@ const LandingPage = () => {
         <div className='header__contact-icons'>
           <a className='icon' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon fontSize='inherit' /></a>
           <a href='https://github.com/NakiNorton' className='icon'><GitHubIcon fontSize='inherit'/></a>
-          <a href={resume} target="_blank" rel='noreferrer' className='icon'><ResumeIcon fontSize='inherit' /></a>
+          <Tooltip title="Resume">
+            <a href={resume} target="_blank" rel='noreferrer' className='icon'><ResumeIcon fontSize='inherit' /></a>
+          </Tooltip>
         </div>
       </div>
     </div>
