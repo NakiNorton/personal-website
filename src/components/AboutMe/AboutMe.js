@@ -18,7 +18,7 @@ const AboutMe = () => {
         <div className='about__textbox'>
           <h2 className='about__heading heading-secondary'>About</h2>
           <p className='paragraph u-margin-top-medium'>
-            Hi! I’m Stephanie Norton, a software engineer based in Denver, CO. My decision to pursue a career in software engineering was driven by the immense fulfillment and engagement that I feel when tackling complex problems and transforming ideas into working features. I love that tech is continuously evolving and that there are endless opportunities for professional growth. I aspire to use my skills in tech to make a positive social impact.<br />
+            Hi! I’m Stephanie Norton, a software engineer based in Denver, CO. My decision to pursue a career in software engineering was driven by the immense fulfillment and engagement that I'm rewarded with when tackling complex problems and transforming ideas into working features. I love that tech is continuously evolving and that there are endless opportunities for professional growth. I aspire to use my skills in tech to make a positive social impact.<br />
 
             <br />After graduating from Turing School of Software and Design in November 2020 I joined an early stage startup on a contract basis. Joining one month prior to product launch, I dove into the code base to iterate and improve on existing features and built major new features that contributed to it being awarded #1 on Product Hunt.<br />
 
