@@ -36,30 +36,66 @@ const Contact = () => {
     <div className='contact'>
       <div className='contact__container'>
         <h2 className='contact__heading heading-secondary'>Get In Touch</h2>
+
         {!msgSubmitted &&
           <p style={{ color: 'white', fontSize: '1.25rem' }}>Connect with me on LinkedIn, GitHub, or send me a message below.</p>
         }
+
         <div className='contact__contact-icons'>
-          <a className='icon' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon fontSize='inherit' /></a>
-          <a href='https://github.com/NakiNorton' className='icon'><GitHubIcon fontSize='inherit' /></a>
+          <a className='icon' href='https://www.linkedin.com/in/stephanie-norton-12888453/'>
+            <LinkedInIcon fontSize='inherit' />
+          </a>
+          <a href='https://github.com/NakiNorton' className='icon'>
+            <GitHubIcon fontSize='inherit' />
+          </a>
         </div>
    
-        <div className="form-area">
+        <div className='form-area'>
           {msgSubmitted &&
-            <p className="p">Thanks for your message!</p>
+            <p className='p'>Thanks for your message!</p>
           }
 
           {msgError &&
-            <p className="p">Sorry, something went wrong and we couldn't send your message. Please refresh the page and try again.</p>
+            <p className='p'>Sorry, something went wrong and we couldn't send your message. Please refresh the page and try again.</p>
           }
 
           {(!msgSubmitted && !msgError) &&
             <>
               <form onSubmit={handleClick}>
-                <input id="nameInput" name="name" type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required />
-                <input id="emailInput" name="email" type="text" placeholder="Email Address" value={email} onChange={(e) => setEmail(e.target.value)} required />
-                <textarea id="message" name="message" type="text" placeholder="Your Message..." rows="5" maxLength='250' value={message} onChange={(e) => setMessage(e.target.value)} required />
-                <input type="submit" value="Send" id="submit-btn" />
+                <input 
+                  id='nameInput' 
+                  name='name' 
+                  type='text' 
+                  placeholder='Name' 
+                  value={name} 
+                  onChange={(e) => setName(e.target.value)} 
+                  required 
+                />
+                <input 
+                  id='emailInput' 
+                  name='email' 
+                  type='text' 
+                  placeholder='Email Address' 
+                  value={email} 
+                  onChange={(e) => setEmail(e.target.value)} 
+                  required 
+                />
+                <textarea 
+                  id='message' 
+                  name='message' 
+                  type='text' 
+                  placeholder='Your Message...' 
+                  rows='5' 
+                  maxLength='250' 
+                  value={message} 
+                  onChange={(e) => setMessage(e.target.value)} 
+                  required 
+                />
+                <input 
+                  type='submit' 
+                  value='Send' 
+                  id='submit-btn' 
+                />
               </form>
             </>
           }

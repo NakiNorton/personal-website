@@ -9,7 +9,7 @@
 }
 
 .active {
-  color: rgb(253, 125, 125)!important;
+  color: $color-coral-accent!important;
 }
 
 .nav-link {
@@ -26,11 +26,9 @@
 }
 
 .sn-logo {
-  border: 1px solid rgb(253, 125, 125);
-  // background-color: rgb(35, 36, 35);
-  color: rgb(253, 125, 125);
+  border: 1px solid $color-coral-accent;
+  color: $color-coral-accent;
   padding: 0rem .25rem;
-  // border-radius: 50%;
   font-family: 'Noto Serif JP', serif;
 }
 
@@ -57,15 +55,15 @@
 }
 
 .bm-burger-bars {
-  background: lightgray;
+  background: $color-grey-light-2;
 }
 
 .bm-cross {
-  background: #bdc3c7;
+  background: $color-grey-light-2;
 }
 
 .bm-menu {
-  background: rgb(34, 34, 34);
+  background: $color-grey-dark-3;
   padding: 5rem 1.5em 0;
   font-size: 1.1rem;
   max-height: 25rem!important;
@@ -93,8 +91,8 @@
 
 @media only screen and (max-width: 420px)  {
  .sn-logo {
-    background-color: rgb(35, 36, 35);
-    color: white;
+    background-color: $color-grey-dark-3;
+    color: $color-white;
     padding: .1rem .3rem;
     border-radius: 50%;
   }

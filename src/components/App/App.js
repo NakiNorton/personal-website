@@ -9,12 +9,12 @@ import '../../sass/main.scss';
 
 const App = () => {
   return (
-    <main className="app">
+    <main className='app'>
       <NavBar />
-      <LandingPage id="header" />
-      <AboutMe id="about" />
-      <Portfolio id="portfolio" />
-      <Contact id="contact" />
+      <LandingPage id='header'/>
+      <AboutMe id='about'/>
+      <Portfolio id='portfolio'/>
+      <Contact id='contact'/>
     </main>
   );
 }

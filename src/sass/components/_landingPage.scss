@@ -1,0 +1,33 @@
+.header {
+  height: 100vh;
+  background-image: 
+    url(./../../assets/small-background.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  text-align: center;
+  animation: fadeInAnimation ease 5s ;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+
+  &__text-box {
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__contact-icons {
+    padding-top: 0rem;
+  }
+}
+
+@media only screen and (max-width: 768px)  {
+  .header {
+    height: 38rem;
+    clip-path: polygon(0 0, 100% 0, 100% 32rem, 0 100%);
+    margin-top: 0!important;
+  }
+} 

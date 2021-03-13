@@ -1,8 +1,7 @@
-import lienFlash from './assets/lien-new.png'
-import readMe from './assets/new.png'
+import lienFlash from './assets/lienFlash.png'
+import readMe from './assets/readMe.png'
 import portfolio from './assets/portfolio.png'
 import finRahZel from './assets/finRahZel.png'
-
 
 export const data = {
   name: 'Stephanie Norton',

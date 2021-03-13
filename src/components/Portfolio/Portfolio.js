@@ -13,7 +13,7 @@ const Portfolio = () => {
             <img className={project.className} alt='gif of project' src={project.image} />
           </div>
           <section className='project-description'>
-            { project.deployedUrl &&
+            {project.deployedUrl &&
               <a className='ext-link' href={project.deployedUrl} target="_blank" rel="noreferrer">Deployed App / </a> 
             } 
             <a className='ext-link' href={project.githubUrl} target="_blank" rel="noreferrer">View repo</a>
