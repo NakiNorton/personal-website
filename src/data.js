@@ -12,9 +12,9 @@ export const data = {
       name: 'My Portfolio',
       image: portfolio,
       className: 'img', 
-      deployedUrl: 'https://www.stephanie-norton.com/',
+      deployedUrl: '',
       githubUrl: 'https://github.com/NakiNorton/personal-website',
-      description: 'My Portfolio is a website built to introduce myself to the software dev world and showcase a few of my projects and make it easy for people to connect with me.', 
+      description: 'My Portfolio is a website built to introduce myself to the software dev world, to showcase a few of my projects, and make it easy for people to connect with me.',
       techStack: 'React / react-scroll / EmailJS / Material UI / SASS/SCSS, Netlify' 
     },
     {
@@ -24,7 +24,7 @@ export const data = {
       className: 'img',
       deployedUrl: 'https://www.finrahzel.com/',
       githubUrl: 'https://github.com/NakiNorton/Fin-Rah-Zel',
-      description: 'Fin Rah Zel is a website built for a New Zealand musician who wants to share his latest music, info about upcoming performances and enable people to connect with him outside of social media applications. This is still a work in progress.',
+      description: 'Fin Rah Zel is a website built for a New Zealand musician to share his latest music, info about upcoming performances and enable people to connect with him outside of social media applications. This is still a work in progress, additional features coming soon!',
       techStack: 'React / CSS / Material UI / react-scroll / EmailJS / Netlify'
     },    {
       id: 2,
@@ -33,7 +33,7 @@ export const data = {
       deployedUrl: 'https://lienflash.herokuapp.com/',
       githubUrl: 'https://github.com/lienflash/lienflash-fe',
       className: 'img',
-      description: 'LienFlash is an app built to assist lawyers with the Lien filing process. The app allows a user to login as either a general user (client) or an admin.  Users can create a new job, track that job in the lien process, and submit the job info to an administrator when they are ready to submit a Notice of Intent, Lien, or Release of Lien. Users are sent SMS notifications to remind them of upcoming deadlines.',
+      description: 'LienFlash is an app built to assist lawyers with the Lien filing process. Users can create a new job, track that job in the lien process, and submit the job info to an administrator when they are ready to submit a Notice of Intent, Lien, or Release of Lien. Users are sent SMS notifications to remind them of upcoming deadlines.',
       techStack: "React / React Router / JSON Web Token (JWT) / Fetch API / Redux / Material UI / Continuous Integration (Travis CI) / Jest / React Testing Library"
     },
     {

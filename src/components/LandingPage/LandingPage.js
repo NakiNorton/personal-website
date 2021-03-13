@@ -16,7 +16,7 @@ const LandingPage = () => {
       <div className="header__text-box">
         <h1 className="heading-primary">
           <span className="heading-primary--main">Stephanie Norton</span>
-          <span className="heading-primary--sub"> Frontend Software Engineer.</span>
+          <span className="heading-primary--sub"> Front-end Software Engineer.</span>
         </h1>
         <div className='header__contact-icons'>
           <a className='icon' href='https://www.linkedin.com/in/stephanie-norton-12888453/'><LinkedInIcon fontSize='inherit' /></a>

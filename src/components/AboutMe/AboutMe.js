@@ -18,17 +18,20 @@ const AboutMe = () => {
         </div>
         <div className="about__textbox">
           <h2 className='about__heading heading-secondary'>About</h2>
-          <p className="paragraph u-margin-top-medium">Hi! I’m Stephanie Norton, a software engineer based in Denver, CO. My transition to a career in software engineering was driven by the engagement and fulfillment I feel when tackling complex problems and transforming ideas into working features.<br />
-          <br />After graduating from Turing School of Software and Design in November 2020 I joined an early stage startup on a contract basis. Joining one month prior to product launch, I dove into the code base to iterate and improve on existing features and built major new features that contributed to it being awarded #1 on Product Hunt.<br /><br />I’ve been working predominantly in the React.JS ecosystem and I've been enjoying the design aspect of frontend development and collaborating with product teams on UI/UX. I’m also interested in branching into mobile app development and expanding my knowledge and experience in backend development.<br />
-          <br />I have proven experience working both collaboratively and independently to deliver quality results. I'd love to chat if you have a full-time opportunity that you think I could be a good fit for!
+          <p className="paragraph u-margin-top-medium">
+            Hi! I’m Stephanie Norton, a software engineer based in Denver, CO. My decision to transition to a career in software engineering was driven by the fulfillment and engagement I feel when tackling complex problems and transforming ideas into working features. I love that tech is continuously evolving and that there are endless opportunities to learn, grow, and to use my skills to make a positive impact.<br />
+
+            <br />After graduating from Turing School of Software and Design in November 2020 I joined an early stage startup on a contract basis. Joining one month prior to product launch, I dove into the code base to iterate and improve on existing features and built major new features that contributed to it being awarded #1 on Product Hunt.<br />
+
+            <br />I’ve been working primarily in the React.JS ecosystem which I really enjoy,  but I’m always interested in adding more tools to my toolbelt. I have proven experience working both collaboratively and independently to deliver quality results. I'd love to chat if you have a full-time opportunity that you think I could be a good fit for!<br />
           </p>
           <a className='resume' href={resume} target="_blank" rel="noreferrer">Check out my resume
             <OpenInNewIcon />
           </a> 
           <h3 className="heading-tertiary u-margin-bottom-small u-margin-top-medium" style={{ textAlign: 'center'}}>Key skills</h3>
             <ul className='about__skill-list'>
-              <li className='pill'>ReactJS</li>
-              <li className='pill'>Javascript ES6</li>
+              <li className='pill'>React.JS</li>
+              <li className='pill'>Javascript ES5/ES6</li>
               <li className='pill'>API</li>
               <li className='pill'>Git/GitHub Workflow</li>
               <li className='pill'>HTML5</li>
