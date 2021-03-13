@@ -6,7 +6,8 @@
   animation: fadeIn 2s ease-in;
 
   &:hover {
-    border-bottom: 2px solid $color-white;
+    // border-bottom: 2px solid $color-white;
+    color: $color-grey-dark;
   }
 }
 
