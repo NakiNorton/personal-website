@@ -14,9 +14,9 @@ const Portfolio = () => {
           </div>
           <section className='project-description'>
             {project.deployedUrl &&
-              <a className='ext-link' href={project.deployedUrl} target="_blank" rel="noreferrer">Deployed App / </a> 
+              <a className='ext-link' href={project.deployedUrl} target="_blank" rel="noreferrer">Deployed App /</a> 
             } 
-            <a className='ext-link' href={project.githubUrl} target="_blank" rel="noreferrer">View repo</a>
+            <a className='ext-link' href={project.githubUrl} target="_blank" rel="noreferrer"> View repo</a>
             <p className='paragraph'>{project.description}</p>
             <p className='paragraph' style={{ color: 'black', marginBottom: '0'}}>Tech Stack:</p>
             <p className='paragraph'>{project.techStack}</p>
