@@ -19,25 +19,24 @@ const AboutMe = () => {
           <h2 className='about__heading heading-secondary'>About</h2>
           <p className='paragraph u-margin-top-medium'>
             Hi! I’m Stephanie Norton, a software engineer based in Denver, CO. My decision to pursue a career in software engineering was driven by the immense fulfillment and engagement that I'm rewarded with when tackling complex problems and transforming ideas into working features. I love that tech is continuously evolving and that there are endless opportunities for professional growth.<br />
-
-            <br />After graduating from Turing School of Software and Design in November 2020 I joined an early stage startup on a contract basis. Joining one month prior to product launch, I dove into the code base to iterate and improve on existing features and built major new features that contributed to it being awarded #1 on Product Hunt.<br />
-
-            <br />I’ve been working primarily in the ReactJS ecosystem which I really enjoy, but I’m always interested in adding more tech and tools to my dev tool belt. I have proven experience working both collaboratively and independently to deliver quality results. I'd love to chat if you have a full-time opportunity that you think I could be a good fit for!<br />
           </p>
           <a className='resume' href={resume} target="_blank" rel="noreferrer">Check out my resume
             <OpenInNewIcon />
           </a> 
-          <h3 className='heading-tertiary u-margin-bottom-small u-margin-top-medium' style={{ textAlign: 'center' }}>Key skills</h3>
+          <h3 className='heading-tertiary u-margin-bottom-small u-margin-top-medium' style={{ textAlign: 'center' }}>Skills</h3>
             <ul className='about__skill-list'>
               <li className='pill'>ReactJS</li>
               <li className='pill'>Javascript ES5/ES6</li>
+              <li className='pill'>Ruby</li>
+              <li className='pill'>AWS</li>
+              <li className='pill'>Salesforce Development</li>
               <li className='pill'>API</li>
               <li className='pill'>Git/GitHub Workflow</li>
+              <li className='pill'>Git/GitLab Workflow</li>
               <li className='pill'>HTML5</li>
-              <li className='pill'>Agile practices</li>
               <li className='pill'>UI/UX</li>
               <li className='pill'>CSS3</li>
-              <li className='pill'>SASS/SCSS</li>
+              <li className='pill'>GraphQl</li>
             </ul>
         </div>
       </div>
