@@ -21,9 +21,9 @@ export const data = {
       name: 'Fin Rah Zel',
       image: finRahZel,
       className: 'img',
-      deployedUrl: 'https://www.finrahzel.com/',
+      deployedUrl: '',
       githubUrl: 'https://github.com/NakiNorton/Fin-Rah-Zel',
-      description: 'Fin Rah Zel is a website built for a New Zealand musician to share his latest music, share info about upcoming performances and to enable people to connect with him outside of social media applications. This is still a work in progress, additional features coming soon!',
+      description: 'Fin Rah Zel is a website built for a New Zealand musician to share his latest music, share info about upcoming performances and to enable people to connect with him outside of social media applications. Website isn\'t deployed anymore.',
       techStack: 'React / CSS / Material UI / react-scroll / EmailJS / Netlify'
     },    {
       id: 2,

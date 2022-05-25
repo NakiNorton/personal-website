@@ -27,8 +27,7 @@ const AboutMe = () => {
             <ul className='about__skill-list'>
               <li className='pill'>ReactJS</li>
               <li className='pill'>Javascript ES5/ES6</li>
-              <li className='pill'>Ruby</li>
-              <li className='pill'>AWS</li>
+              <li className='pill'>Ruby on Rails</li>
               <li className='pill'>Salesforce Development</li>
               <li className='pill'>API</li>
               <li className='pill'>Git/GitHub Workflow</li>
@@ -36,7 +35,7 @@ const AboutMe = () => {
               <li className='pill'>HTML5</li>
               <li className='pill'>UI/UX</li>
               <li className='pill'>CSS3</li>
-              <li className='pill'>GraphQl</li>
+              <li className='pill'>GraphQL</li>
             </ul>
         </div>
       </div>
